@@ -1,2 +1,6 @@
-# kevinlogan94.github.io
-Basic github deployed project
+# Resume Web Application
+
+Created using
+* jQuery
+* PureCSS
+* font-awesome
