@@ -1,9 +1,9 @@
 # Personal Portfolio Application
 
 Created using
-* jQuery
-* PureCSS
-* font-awesome
+* jQuery v3.0.0
+* PureCSS v1.0.0
+* font-awesome v4.7.0
 
 [Check out the site here](www.kevinmlogan.com)
 
