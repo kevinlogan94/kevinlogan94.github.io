@@ -6,7 +6,7 @@ $(document).ready(function () {
         $(this).addClass('pure-menu-selected');
 
         $('html,body').animate({
-            scrollTop: $('.footer').offset().top
+            scrollTop: $('#passions').offset().top - 35
         }, 1000);
     });
 
