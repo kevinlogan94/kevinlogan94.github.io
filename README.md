@@ -5,7 +5,7 @@ Created using
 * PureCSS v1.0.0
 * font-awesome v4.7.0
 
-[Check out the site here](www.kevinmlogan.com)
+[Check out the site here](http://www.kevinmlogan.com)
 
 ## Helpful Articles for deploying project
 * https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages
