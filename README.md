@@ -1,5 +1,6 @@
 # Resume Web Application
 [Check out the site here](www.kevinmlogan.com)
+
 Created using
 * jQuery
 * PureCSS
