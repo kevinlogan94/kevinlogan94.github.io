@@ -1,13 +1,18 @@
 $(document).ready(function () {
     
-    //this will attach the class to every target 
-    $('.pure-menu-item').click(function () {
-        $(".pure-menu-item").removeClass("pure-menu-selected");
-        $(this).addClass('pure-menu-selected');
-
+    $('.Passion').click(function () {
         $('html,body').animate({
             scrollTop: $('#passions').offset().top - 35
         }, 1000);
     });
-
+    $('.Doing').click(function () {
+        $('html,body').animate({
+            scrollTop: $('#Doing').offset().top - 35
+        }, 1000);
+    });
+    $('.Home').click(function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 1000);
+    });
 })
