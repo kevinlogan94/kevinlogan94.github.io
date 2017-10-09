@@ -342,7 +342,7 @@ a { color: #7f8c8d;}
 
 .side-menu {
     width: 55px;
-    z-index: 4;
+    z-index: 5;
     position: fixed;
     bottom: 15%;
     right: 0;
