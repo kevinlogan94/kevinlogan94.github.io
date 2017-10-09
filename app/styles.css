@@ -321,11 +321,12 @@ a { color: #7f8c8d;}
     z-index: 4;
     /* width: 45%; */
     width: 100%;
-    top: 50px;
+    /* top: 50px; */
+    bottom:45px;
 }
 .mobile-menu-item {
     display: block;
-    background-color: #2d3e50;
+    background-color: #111;
     position: relative;
     right: 100%;
     text-align: center;
@@ -338,6 +339,16 @@ a { color: #7f8c8d;}
 .mobile-menu-item:nth-child(2) { transition-delay: 0.10s }
 .mobile-menu-item:nth-child(3) { transition-delay: 0.20s }
 .mobile-menu-item:nth-child(4) { transition-delay: 0.30s }
+
+.side-menu {
+    width: 55px;
+    z-index: 4;
+    position: fixed;
+    bottom: 15%;
+    right: 0;
+    /* background: #2d3e50; */
+    background-color: #111;
+}
 
 /* Icon Animation --------------------------------------------------------- */
 
