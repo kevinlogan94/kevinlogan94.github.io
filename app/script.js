@@ -22,8 +22,19 @@ $(document).ready(function () {
     });
 
     /* ------- */
-    
-    $(".container").click(function(){
-        $(".container").toggleClass('changed');
+
+    $('body').click(function(){
+        if($(".container").hasClass("changed")){
+            $(".mobile-menu-active").removeClass('mobile-menu-active');
+            $(".changed").removeClass('changed');
+        }
       });
+
+    /* ------- */
+    
+    $('.container').click(function(evt){
+        evt.stopPropagation();
+        $(this).toggleClass('changed');
+        $('.mobile-menu-item').toggleClass('mobile-menu-active');
+    });
 })

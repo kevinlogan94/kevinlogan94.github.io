@@ -315,6 +315,30 @@ a { color: #7f8c8d;}
 
 .is-center-mobile { text-align: center; }
 
+.mobile-menu {
+    display: flex;
+    position: fixed;
+    z-index: 4;
+    /* width: 45%; */
+    width: 100%;
+    top: 50px;
+}
+.mobile-menu-item {
+    display: block;
+    background-color: #2d3e50;
+    position: relative;
+    right: 100%;
+    text-align: center;
+    list-style-type: none;
+    transition: 0.25s;
+}
+
+.mobile-menu-active { right: 0%; }
+
+.mobile-menu-item:nth-child(2) { transition-delay: 0.10s }
+.mobile-menu-item:nth-child(3) { transition-delay: 0.20s }
+.mobile-menu-item:nth-child(4) { transition-delay: 0.30s }
+
 /* Icon Animation --------------------------------------------------------- */
 
 .container{
@@ -406,10 +430,8 @@ a { color: #7f8c8d;}
     }
 
     .is-center-mobile { text-align: auto; }
-
-    .column-reverse-mobile {
-        display: block;
-    }
+    .column-reverse-mobile { display: block; }
+    .mobile-menu-item { display: none; }
 
 }
 
