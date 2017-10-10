@@ -4,6 +4,8 @@ Created using
 * jQuery v3.0.0
 * PureCSS v1.0.0
 * font-awesome v4.7.0
+* Google Domains BETA
+* Github Pages
 
 [Check out the site here](http://www.kevinmlogan.com)
 
