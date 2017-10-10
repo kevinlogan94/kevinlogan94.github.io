@@ -220,6 +220,7 @@ a.pure-button-primary {
 }
 
 .scrollDown { 
+    cursor: pointer;
     margin-top: 20px; 
     overflow: hidden;
 }
