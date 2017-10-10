@@ -216,25 +216,29 @@ a.pure-button-primary {
     color: #fff; 
     font-size: 30px;
     position:relative;
-    margin-top:20px;
-    animation: scrollDown 1.5s linear infinite;
+    animation: scrollDown 2.0s linear infinite;
+}
+
+.scrollDown { 
+    margin-top: 20px; 
+    overflow: hidden;
 }
 
 @-webkit-keyframes scrollDown {
-    0%   { top: 0; }
-    100% { top: 20px; }
+    0%   { top: -30px; }
+    100% { top: 30px; }
   }
   @-moz-keyframes scrollDown {
-    0%   { top: 0; }
-    100% { top: 20px; }
+    0%   { top: -30px; }
+    100% { top: 30px; }
   }
   @-o-keyframes scrollDown {
-    0%   { top: 0; }
-    100% { top: 20px; }
+    0%   { top: -30px; }
+    100% { top: 30px; }
   }
   @keyframes scrollDown {
-    0%   { top: 0; }
-    100% { top: 20px; }
+    0%   { top: -30px; }
+    100% { top: 30px; }
   }
 
 /*
