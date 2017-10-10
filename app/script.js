@@ -20,6 +20,11 @@ $(document).ready(function () {
             scrollTop: $('#Projects').offset().top - 35
         }, 1000);
     });
+    $('.Contact').click(function () {
+        $('html,body').animate({
+            scrollTop: $('#Contact').offset().top - 35
+        }, 1000);
+    });
 
     /* ------- */
 
