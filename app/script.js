@@ -26,7 +26,7 @@ $(document).ready(function () {
         }, 1000);
     });
 
-    /* ------- */
+    /* --- Click anything and the menu disapears and icon gets unflipped. ---- */
 
     $('body').click(function(){
         if($(".container").hasClass("changed")){
@@ -35,7 +35,7 @@ $(document).ready(function () {
         }
       });
 
-    /* ------- */
+    /* ---- Click menu icon--- */
     
     $('.container').click(function(evt){
         evt.stopPropagation();
