@@ -1,8 +1,8 @@
 $(document).ready(function () {
     
-    $('.Passion').click(function () {
+    $('.Work').click(function () {
         $('html,body').animate({
-            scrollTop: $('#passions').offset().top - 35
+            scrollTop: $('#work').offset().top - 35
         }, 1000);
     });
     $('.Doing').click(function () {
