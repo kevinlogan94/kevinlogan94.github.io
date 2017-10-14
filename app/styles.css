@@ -357,12 +357,39 @@ a { color: #7f8c8d; }
     transition: 0.10s;
 }
 
-.space { margin: 65px; }
 .mobile-menu-active { right: 0%; }
 
 .mobile-menu-item:nth-child(2) { transition-delay: 0.05s }
 .mobile-menu-item:nth-child(3) { transition-delay: 0.10s }
 .mobile-menu-item:nth-child(4) { transition-delay: 0.15s }
+
+/* Spacing ---------------------------------------------------------------- */
+
+.spacing        { margin: 20px; }
+.spacing-bottom { margin-bottom: 20px; }
+.spacing-right  { margin-right: 20px; }
+.spacing-top    { margin-top: 20px; }
+.spacing-left   { margin-left: 20px; }
+
+/* extra spacing */
+.spacing-x--        { margin: 40px; }
+.spacing-bottom-x-- { margin-bottom: 40px; }
+.spacing-right-x--  { margin-right: 40px; }
+.spacing-top-x--    { margin-top: 40px; }
+.spacing-left-x--   { margin-left: 40px; }
+
+/* extra extra spacing */
+.spacing-2x--        { margin: 50px; }
+.spacing-bottom-2x-- { margin-bottom: 50px; }
+.spacing-right-2x--  { margin-right: 50px; }
+.spacing-top-2x--    { margin-top: 50px; }
+.spacing-left-2x--   { margin-left: 50px; }
+
+/* even more spacing */
+.spacing-bottom-3x-- { margin-bottom: 70px; }
+.spacing-right-3x--  { margin-right: 70px; }
+.spacing-top-3x--    { margin-top: 70px; }
+.spacing-left-3x--   { margin-left: 70px; }
 
 /* Icon Animation --------------------------------------------------------- */
 
