@@ -289,6 +289,8 @@ a.pure-button-primary {
     margin-bottom: 45px;
 }
 
+.content-blue h2, .content-blue span { color: #ffffff; }
+
 /* This is the class used for the dark-background areas. */
 .ribbon {
     background: #2d3e50;
@@ -362,6 +364,10 @@ a { color: #7f8c8d; }
 .mobile-menu-item:nth-child(2) { transition-delay: 0.05s }
 .mobile-menu-item:nth-child(3) { transition-delay: 0.10s }
 .mobile-menu-item:nth-child(4) { transition-delay: 0.15s }
+
+/* Logo ---------------------------------------------------------------- */
+
+.Logo { padding: 0; }
 
 /* Spacing ---------------------------------------------------------------- */
 
