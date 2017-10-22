@@ -111,11 +111,9 @@ a.pure-button-primary {
  */
 
 .home-menu {
+    display: none;
     padding: 0.5em;
-    /* text-align: center; */
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-}
-.home-menu {
     background: #2d3e50;
 }
 .pure-menu.pure-menu-fixed {
@@ -487,6 +485,10 @@ a { color: #7f8c8d; }
         /* height: 190px; */
         height: auto;
         margin: 20px auto;
+    }
+
+    .home-menu {
+        display: block;
     }
 
     .is-center-mobile { text-align: left; }
