@@ -6,12 +6,23 @@ function onVisibilityChange(el, callback) {
         }
     }
 }
-var handler = onVisibilityChange(document.getElementById('work'), function(visible) {
-    if(visible) {
-      console.log('yes');
-    } else {
-      console.log('no');
-    }
+var workHandler = onVisibilityChange(document.getElementById('work'), function(visible) {
+    visible ? $('.Work').addClass('active') : $('.Work').removeClass('active');
+});
+var projectsHandler = onVisibilityChange(document.getElementById('Projects'), function(visible) {
+    visible ? $('.Projects').addClass('active') : $('.Projects').removeClass('active');
+});
+var theNowHandler = onVisibilityChange(document.getElementById('TheNow'), function(visible) {
+    visible ? $('.TheNow').addClass('active') : $('.TheNow').removeClass('active');
+});
+var connectsHandler = onVisibilityChange(document.getElementById('Connect'), function(visible) {
+    visible ? $('.Connect').addClass('active') : $('.Connect').removeClass('active');
 });
 
-$(window).on('DOMContentLoaded load resize scroll', handler);
+
+$(window).on('DOMContentLoaded load resize scroll', function() {
+    workHandler();
+    projectsHandler();
+    theNowHandler();
+    connectsHandler();
+});

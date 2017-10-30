@@ -10,10 +10,8 @@ Created using
 
 [Check out the site here](http://www.kevinmlogan.com)
 
-## Updates from Version 1.0
-1. Update desktop splash screen.
-2. Remove focus on mobile icons.
-3. Add viewport animations
+## Updates
+1. Add viewport Handler.
 
 ## Helpful Articles for deploying project
 * [Custom domain for github project pages](https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages)

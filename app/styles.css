@@ -111,11 +111,9 @@ a.pure-button-primary {
  */
 
 .home-menu {
+    display: none;
     padding: 0.5em;
-    /* text-align: center; */
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-}
-.home-menu {
     background: #2d3e50;
 }
 .pure-menu.pure-menu-fixed {
@@ -289,6 +287,8 @@ a.pure-button-primary {
     margin-bottom: 45px;
 }
 
+.content-blue h2, .content-blue span { color: #ffffff; }
+
 /* This is the class used for the dark-background areas. */
 .ribbon {
     background: #2d3e50;
@@ -363,6 +363,10 @@ a { color: #7f8c8d; }
 .mobile-menu-item:nth-child(3) { transition-delay: 0.10s }
 .mobile-menu-item:nth-child(4) { transition-delay: 0.15s }
 
+/* Logo ---------------------------------------------------------------- */
+
+.Logo { padding: 0; }
+
 /* Spacing ---------------------------------------------------------------- */
 
 .spacing        { margin: 20px; }
@@ -418,6 +422,7 @@ a { color: #7f8c8d; }
     transform:translate(0px, -11px) rotate(-400deg);
 }
 
+.active { color: #fff !important; }
 /* ---------------------------------------------   */
 
 /*
@@ -481,6 +486,10 @@ a { color: #7f8c8d; }
         /* height: 190px; */
         height: auto;
         margin: 20px auto;
+    }
+
+    .home-menu {
+        display: block;
     }
 
     .is-center-mobile { text-align: left; }
