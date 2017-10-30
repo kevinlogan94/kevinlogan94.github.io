@@ -1,5 +1,17 @@
-$(document).ready(function () {
-    
+/* --- isElementInViewport identifier --- */
+
+function isElementInViewport (el) {
+    var rect = el.getBoundingClientRect();
+    var menuRect = document.getElementsByClassName('pure-menu-horizontal').getBoundingClientRect();
+    return (
+        rect.top >= (0 - rect.height) &&
+        rect.bottom <= ((window.innerHeight + rect.height) || (document.documentElement.clientHeight + rect.height))
+    );
+}
+
+/* --- On Ready --- */
+
+$(document).ready(function () {  
     $('.Work').click(function () {
         $('html,body').animate({
             scrollTop: $('#work').offset().top - 35
