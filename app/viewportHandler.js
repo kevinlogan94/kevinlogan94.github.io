@@ -6,7 +6,7 @@ function onVisibilityChange(el, callback) {
         }
     }
 }
-var workHandler = onVisibilityChange(document.getElementById('work'), function(visible) {
+var workHandler = onVisibilityChange(document.getElementById('workContent'), function(visible) {
     visible ? $('.Work').addClass('active') : $('.Work').removeClass('active');
 });
 var projectsHandler = onVisibilityChange(document.getElementById('Projects'), function(visible) {

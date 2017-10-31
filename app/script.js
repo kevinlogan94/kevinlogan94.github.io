@@ -62,7 +62,6 @@ function isElementInViewport (el) {
     // we want the height and padding
     if(em >= 48) { menuHeight = $('.pure-menu-horizontal').height() + (0.5 * parseFloat($("html").css("font-size")));}
     footerHeight = $('.footer').height() + (parseFloat($("html").css("font-size")));   
-
     return (
         rect.top >= (0 - rect.height + menuHeight) &&
         rect.bottom <= ((window.innerHeight + rect.height - footerHeight) || (document.documentElement.clientHeight + rect.height - footerHeight))
