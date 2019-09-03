@@ -1,4 +1,4 @@
-# kevinlogan94.github.io
+# kevinlogan94
 
 ## Project setup
 ```
