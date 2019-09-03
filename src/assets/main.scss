@@ -1,9 +1,9 @@
 // define accessibility colors
-$green: #008040;
-$blue: #3455db;
+$green: #167B3E;
+$gray: #686868;
 
 // Update Bulma's global variables
-$primary: $blue;
+$primary: $gray;
 $success: $green;
 
 @import '~bulma/bulma'
