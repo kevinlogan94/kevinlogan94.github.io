@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <Navbar />
     <main>
       <Banner />
       <MyWork />
+      <Projects />
       <ContactMe />
     </main>
   </div>
@@ -15,6 +15,7 @@ import Banner from "./components/Banner";
 import ContactMe from "./components/ContactMe";
 import MyWork from "./components/MyWork";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 export default {
   name: "app",
@@ -22,7 +23,8 @@ export default {
     Banner,
     ContactMe,
     MyWork,
-    Navbar
+    Navbar,
+    Projects
   }
 };
 </script>
