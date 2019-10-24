@@ -5,6 +5,7 @@
     <main>
       <Banner />
       <MyWork />
+      <TheNow />
       <ContactMe />
     </main>
   </div>
@@ -15,6 +16,7 @@ import Banner from "./components/Banner";
 import ContactMe from "./components/ContactMe";
 import MyWork from "./components/MyWork";
 import Navbar from "./components/Navbar";
+import TheNow from "./components/TheNow";
 
 export default {
   name: "app",
@@ -22,7 +24,8 @@ export default {
     Banner,
     ContactMe,
     MyWork,
-    Navbar
+    Navbar,
+    TheNow
   }
 };
 </script>
