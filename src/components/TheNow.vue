@@ -2,7 +2,11 @@
   <section class="hero">
     <div class="hero-body">
       <div class="columns">
-        <div class="column"></div>
+        <div class="column">
+          <figure class="image is-64x64 has-image-centered">
+            <img src="../assets/profile.jpg" alt="Profile Picture" />
+          </figure>
+        </div>
         <div class="column">
           <h1 class="title">What I'm Doing Now</h1>
           <p class="content">
