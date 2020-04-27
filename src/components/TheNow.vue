@@ -1,6 +1,6 @@
 <template>
-  <section class="hero">
-    <div class="hero-body">
+  <section class="section">
+    <div class="container">
       <div class="columns">
         <div class="column">
           <figure class="image is-64x64 has-image-centered">

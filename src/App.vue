@@ -4,8 +4,8 @@
     <main>
       <Banner />
       <MyWork />
-      <TheNow />
       <Projects />
+      <TheNow />
       <ContactMe />
     </main>
   </div>
@@ -31,3 +31,5 @@ export default {
   }
 };
 </script>
+
+<style lang="scss"></style>

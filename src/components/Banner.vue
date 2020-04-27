@@ -27,7 +27,11 @@
           </div>
           <div class="column is-half">
             <figure class="image is-360x360 has-image-centered">
-              <img src="../assets/profile.jpg" alt="Profile Picture" />
+              <img
+                class="is-rounded"
+                src="../assets/profile.jpg"
+                alt="Profile Picture"
+              />
             </figure>
           </div>
         </div>
