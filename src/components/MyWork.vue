@@ -24,8 +24,8 @@
               <p>UX</p>
             </div>
             <p class="content">
-              I build software with the mentality that it should be used by
-              everyone.
+              I bring sites to life with a simple and lush user experience using
+              css frameworks.
             </p>
           </div>
           <div class="column has-text-centered">
