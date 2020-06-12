@@ -7,19 +7,42 @@
         </div>
         <section class="section">
           <div class="container">
-            <Project
-              title="Fifth third Bank"
-              img="ROB.png"
-              imgAlt="test"
-              description="testing"
-            />
-            <div class="is-divider" data-content="or"></div>
-            <Project
-              title="Fifth third Bank"
-              img="ROB.png"
-              imgAlt="test"
-              description="testing"
-            />
+            <div class="tile is-ancestor">
+              <div class="tile is-vertical">
+                <div class="tile">
+                  <Project
+                    title="Fifth third Bank"
+                    subtitle="testing"
+                    img="ROB.png"
+                    imgAlt="test"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                  />
+                  <Project
+                    title="Fifth third Bank"
+                    subtitle="testing"
+                    img="ROB.png"
+                    imgAlt="test"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                  />
+                </div>
+                <div class="tile">
+                  <Project
+                    title="Fifth third Bank"
+                    subtitle="testing"
+                    img="ROB.png"
+                    imgAlt="test"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                  />
+                  <Project
+                    title="Fifth third Bank"
+                    subtitle="testing"
+                    img="ROB.png"
+                    imgAlt="test"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
@@ -37,3 +60,7 @@ export default {
   }
 };
 </script>
+
+<!--<style lang="scss">-->
+<!--.tile-->
+<!--</style>-->
