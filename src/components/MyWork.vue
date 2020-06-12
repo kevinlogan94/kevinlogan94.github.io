@@ -19,9 +19,9 @@
           <div class="column has-text-centered">
             <div class="container content">
               <span class="icon is-large has-text-success">
-                <font-awesome-icon icon="universal-access" size="3x" />
+                <font-awesome-icon icon="magic" size="3x" />
               </span>
-              <p>Accessibility</p>
+              <p>UX</p>
             </div>
             <p class="content">
               I build software with the mentality that it should be used by
