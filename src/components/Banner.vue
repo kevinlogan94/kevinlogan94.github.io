@@ -1,58 +1,32 @@
 <template>
-  <section class="hero is-primary">
+  <section class="hero banner is-fullheight bg-image">
     <div class="hero-body">
-      <div class="container">
-        <div class="columns is-centered is-mobile">
-          <div class="column is-half has-text-centered">
-            <h1 class="title">
-              Hey, I'm Kevin!
-            </h1>
-            <p class="content">hello</p>
-            <div class="section">
-              <div class="columns is-centered is-gapless">
-                <span class="column icon is-large has-text-white">
-                  <font-awesome-icon :icon="['fab', 'linkedin']" size="3x" />
-                </span>
-                <span class="column icon is-large has-text-white">
-                  <font-awesome-icon :icon="['fab', 'github']" size="3x" />
-                </span>
-                <span class="column icon is-large has-text-white">
-                  <font-awesome-icon icon="envelope" size="3x" />
-                </span>
-                <span class="column icon is-large has-text-white">
-                  <font-awesome-icon :icon="['fab', 'twitter']" size="3x" />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="column is-half">
-            <figure class="image is-360x360 has-image-centered">
-              <img
-                class="is-rounded"
-                src="../assets/profile.jpg"
-                alt="Profile Picture"
-              />
-            </figure>
-          </div>
+      <div class="columns is-vcentered banner-content">
+        <div class="column is-one-quarter"></div>
+        <div class="column has-background-green">
+          <h1 class="has-text-white">Test</h1>
+          <h2 class="subtitle has-text-white">A story driven clicker game</h2>
         </div>
+        <div class="column is-one-quarter"></div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-export default {
-  name: "Banner"
-};
+<script lang="ts">
+import Vue from "vue";
+import { Component } from "vue-property-decorator";
+
+@Component
+export default class Banner extends Vue {}
 </script>
 
-<style scoped>
-.has-image-centered {
-  margin-left: auto;
-  margin-right: auto;
+<style lang="scss" scoped>
+.bg-image {
+  background-image: url("../assets/img/Cover.jpg");
+  background-size: auto 100%;
 }
-.image.is-360x360 {
-  height: 360px;
-  width: 360px;
+.banner-content {
+  width: 100%;
 }
 </style>

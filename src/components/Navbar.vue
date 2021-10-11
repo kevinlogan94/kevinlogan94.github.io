@@ -1,45 +1,69 @@
 <template>
-  <nav class="navbar has-shadow is-spaced ">
-    <div class="container">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https://github.com/kevinlogan94">
-          <img src="../assets/img/logo.png" alt="vue-a11y repository" />
-        </a>
-        <a
-          role="button"
-          class="navbar-burger burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbar"
-          v-on:click="isHamburgerMenuActive = !isHamburgerMenuActive"
-          v-bind:class="{ 'is-active': isHamburgerMenuActive }"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      <div
-        id="navbar"
-        class="navbar-menu"
-        v-bind:class="{ 'is-active': isHamburgerMenuActive }"
+  <b-navbar type="is-primary" :spaced="true" :fixed-top="true">
+    <template #brand>
+      <b-navbar-item class="brand">
+        <!--        <b-navbar-item @click="scrollIntoView('banner')"-->
+        <!--          ><img-->
+        <!--            class="image"-->
+        <!--            alt="Intrigue Games Logo"-->
+        <!--            src="@/assets/logo-crop.png"-->
+        <!--        /></b-navbar-item>-->
+        <b-navbar-item href="https://twitter.com/KevinLogan12">
+          <b-icon type="is-white" icon="twitter" title="Twitter Icon"></b-icon
+        ></b-navbar-item>
+        <b-navbar-item href="https://www.facebook.com/kevin.logan1">
+          <b-icon type="is-white" icon="facebook" title="Facebook Icon"></b-icon
+        ></b-navbar-item>
+        <b-navbar-item href="https://www.linkedin.com/in/kevin-logan-73277594/">
+          <b-icon type="is-white" icon="linkedin" title="LinkedIn Icon"></b-icon
+        ></b-navbar-item>
+        <b-navbar-item href="https://www.instagram.com/kevinlogan7/"
+          ><b-icon
+            type="is-white"
+            icon="instagram"
+            title="Instagram Icon"
+          ></b-icon
+        ></b-navbar-item>
+        <b-navbar-item href="https://github.com/kevinlogan94"
+          ><b-icon
+            type="is-white"
+            icon="github-circle"
+            title="Github Icon"
+          ></b-icon
+        ></b-navbar-item>
+      </b-navbar-item>
+    </template>
+    <template #start> </template>
+    <template #end>
+      <b-navbar-item class="has-text-white" @click="scrollIntoView('story')"
+        >Story</b-navbar-item
       >
-        <div
-          class="navbar-start"
-          v-on:click="isHamburgerMenuActive = !isHamburgerMenuActive"
-        >
-          <a role="button" class="navbar-item">Kevin</a>
-          <a role="button" class="navbar-item">What I do</a>
-          <a role="button" class="navbar-item">My Work</a>
-          <a role="button" class="navbar-item">Contact Me</a>
-        </div>
-      </div>
-    </div>
-  </nav>
+      <b-navbar-item class="has-text-white" @click="scrollIntoView('gameplay')"
+        >Gameplay</b-navbar-item
+      >
+      <b-navbar-item class="has-text-white" @click="scrollIntoView('music')"
+        >Music</b-navbar-item
+      >
+      <b-navbar-item
+        class="has-text-white"
+        @click="scrollIntoView('coming-soon')"
+        >Coming Soon!</b-navbar-item
+      >
+    </template>
+  </b-navbar>
 </template>
 
-<script>
-export default {
-  name: "Navbar"
-};
+<script lang="ts">
+import { Component } from "vue-property-decorator";
+import Vue from "vue";
+
+@Component
+export default class NavBar extends Vue {
+  scrollIntoView(classNameOfSection: string) {
+    const element = document.getElementsByClassName(classNameOfSection)[0];
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+}
 </script>

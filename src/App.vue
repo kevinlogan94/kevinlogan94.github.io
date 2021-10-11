@@ -3,18 +3,18 @@
     <Navbar />
     <main>
       <Banner />
-      <MyWork />
+      <Passions />
       <Projects />
       <TheNow />
-      <ContactMe />
+      <Connect />
     </main>
   </div>
 </template>
 
 <script>
 import Banner from "./components/Banner";
-import ContactMe from "./components/ContactMe";
-import MyWork from "./components/MyWork";
+import Connect from "./components/Connect";
+import Passions from "./components/Passions";
 import Navbar from "./components/Navbar";
 import TheNow from "./components/TheNow";
 import Projects from "./components/Projects";
@@ -23,8 +23,8 @@ export default {
   name: "app",
   components: {
     Banner,
-    ContactMe,
-    MyWork,
+    Connect,
+    Passions,
     Navbar,
     TheNow,
     Projects
