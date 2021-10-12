@@ -3,9 +3,11 @@
     <Navbar />
     <main>
       <Banner />
+      <AboutMe />
       <Passions />
-      <Projects />
-      <TheNow />
+<!--      <Projects />-->
+      <IntrigueGames />
+      <Library />
       <Connect />
     </main>
   </div>
@@ -16,18 +18,22 @@ import Banner from "./components/Banner";
 import Connect from "./components/Connect";
 import Passions from "./components/Passions";
 import Navbar from "./components/Navbar";
-import TheNow from "./components/TheNow";
+import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
+import Library from "@/components/Library";
+import IntrigueGames from "@/components/IntrigueGames";
 
 export default {
   name: "app",
   components: {
+    IntrigueGames,
+    Library,
     Banner,
     Connect,
     Passions,
     Navbar,
-    TheNow,
-    Projects
+    AboutMe,
+    Projects,
   }
 };
 </script>

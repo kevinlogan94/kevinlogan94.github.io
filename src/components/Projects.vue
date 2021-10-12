@@ -50,15 +50,15 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
 import Project from "@/components/Project.vue";
+import Vue from "vue";
+import { Component } from "vue-property-decorator";
 
-export default {
-  name: "Projects",
-  components: {
-    Project
-  }
-};
+@Component({
+  components: { Project },
+})
+export default class Projects extends Vue {}
 </script>
 
 <!--<style lang="scss">-->

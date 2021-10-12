@@ -1,12 +1,20 @@
 <template>
   <section class="hero banner is-fullheight bg-image">
     <div class="hero-body">
-      <div class="columns is-vcentered banner-content">
-        <div class="column is-one-quarter"></div>
+      <div class="columns banner-content">
+        <div class="column is-one-fifth"></div>
         <div class="column has-background-green">
-          <h1 class="has-text-white">Test</h1>
-          <h2 class="subtitle has-text-white">A story driven clicker game</h2>
+          <img
+            src="../assets/img/signature.png"
+            alt="Xal title"
+            class="image"
+          />
+          <h2 class="subtitle has-text-black has-text-weight-bold">
+            Software Engineer, Mindfulness Enthusiast, Scholar, Video Game
+            Designer
+          </h2>
         </div>
+        <div class="column is-one-quarter"></div>
         <div class="column is-one-quarter"></div>
       </div>
     </div>
@@ -23,8 +31,8 @@ export default class Banner extends Vue {}
 
 <style lang="scss" scoped>
 .bg-image {
-  background-image: url("../assets/img/Cover.jpg");
-  background-size: auto 100%;
+  background-image: url("../assets/img/BackCover.jpeg");
+  background-size: 100% 100%;
 }
 .banner-content {
   width: 100%;
