@@ -1,9 +1,10 @@
 <template>
-  <section class="hero is-primary">
+  <section class="hero is-primary software">
     <div class="hero-body">
       <div class="container">
         <div class="heading has-text-centered">
-          <h1 class="title">My Team Projects</h1>
+          <h1 class="title">Software Engineering</h1>
+          <h2 class="subtitle">Enterprise and Start-Up Projects</h2>
         </div>
         <section class="section">
           <div class="container">
@@ -11,34 +12,34 @@
               <div class="tile is-vertical">
                 <div class="tile">
                   <Project
-                    title="Fifth third Bank"
-                    subtitle="testing"
+                    title="Fifth Third Bank"
+                    subtitle="Angular and UI Developer"
                     img="ROB.png"
                     imgAlt="test"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    description="At Fifth Third Bank, I focused on the online banking application and building new features like Offers, Products, Lost & Stolen Card, and Check Order."
                   />
                   <Project
-                    title="Fifth third Bank"
-                    subtitle="testing"
-                    img="ROB.png"
+                    title="Hasbro"
+                    subtitle="UI, PHP, and JQuery Developer"
+                    img="Hasbro.png"
                     imgAlt="test"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    description="At Hasbro, I got to build a creative and fun user experience by completing full site redesigns. My primary focus was on Transformers, My Little Pony, and Littlest Pet Shop."
                   />
                 </div>
                 <div class="tile">
                   <Project
-                    title="Fifth third Bank"
-                    subtitle="testing"
-                    img="ROB.png"
+                    title="TCS"
+                    subtitle="UI and React Developer, UX Designer"
+                    img="TCS.png"
                     imgAlt="test"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    description="At TCS, I offered customers a smoother check-in process by designing and building their front desk application. Features included incorporating employee directory and badge sign-in."
                   />
                   <Project
-                    title="Fifth third Bank"
-                    subtitle="testing"
-                    img="ROB.png"
+                    title="NaviStone"
+                    subtitle="Full Stack Engineer"
+                    img="CFI.png"
                     imgAlt="test"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    description="At NaviStone, as one of the four engineers of the company, I built several applications on the web and in the cloud. By far my biggest challenge yet."
                   />
                 </div>
               </div>

@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-primary">
+  <section class="hero is-primary connect">
     <div class="hero-body">
       <div class="container">
         <div class="columns is-centered is-mobile">
@@ -42,7 +42,7 @@
               <a href="https://github.com/kevinlogan94">
                 <b-icon
                   type="is-white"
-                  icon="github-circle"
+                  icon="github"
                   size="is-medium"
                   title="Github Icon"
                 ></b-icon>

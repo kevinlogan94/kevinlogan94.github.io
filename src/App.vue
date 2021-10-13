@@ -5,7 +5,8 @@
       <Banner />
       <AboutMe />
       <Passions />
-<!--      <Projects />-->
+      <Projects />
+      <Mindfulness />
       <IntrigueGames />
       <Library />
       <Connect />
@@ -19,13 +20,16 @@ import Connect from "./components/Connect";
 import Passions from "./components/Passions";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
 import Library from "@/components/Library";
 import IntrigueGames from "@/components/IntrigueGames";
+import Mindfulness from "@/components/Mindfulness";
+import Projects from "@/components/Projects";
 
 export default {
   name: "app",
   components: {
+    Projects,
+    Mindfulness,
     IntrigueGames,
     Library,
     Banner,
@@ -33,8 +37,7 @@ export default {
     Passions,
     Navbar,
     AboutMe,
-    Projects,
-  }
+  },
 };
 </script>
 

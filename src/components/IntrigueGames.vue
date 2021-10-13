@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-primary">
+  <section class="hero is-primary games">
     <div class="hero-body">
       <div class="container">
         <h1 class="title has-text-centered">Games</h1>

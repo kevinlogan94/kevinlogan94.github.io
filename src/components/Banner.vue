@@ -4,14 +4,15 @@
       <div class="columns banner-content">
         <div class="column is-one-fifth"></div>
         <div class="column has-background-green">
-          <img
-            src="../assets/img/signature.png"
-            alt="Xal title"
-            class="image"
-          />
+          <h1 class="title">
+            <img
+              src="../assets/img/signature.png"
+              alt="Xal title"
+              class="image"
+            />
+          </h1>
           <h2 class="subtitle has-text-black has-text-weight-bold">
-            Software Engineer, Mindfulness Enthusiast, Scholar, Video Game
-            Designer
+            Software Engineer, Meditator, Philomath, Video Game Designer
           </h2>
         </div>
         <div class="column is-one-quarter"></div>

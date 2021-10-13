@@ -25,13 +25,13 @@ export default {
     imgAlt: String,
     title: String,
     subtitle: String,
-    description: String
+    description: String,
   },
   methods: {
     getImgUrl(img) {
       const images = require.context("../assets/img", false, /\.png$/);
       return images("./" + img);
-    }
-  }
+    },
+  },
 };
 </script>
