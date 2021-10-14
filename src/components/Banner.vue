@@ -1,9 +1,9 @@
 <template>
   <section class="hero banner is-fullheight bg-image">
     <div class="hero-body">
-      <div class="columns banner-content">
+      <div class="columns banner-content mt-6">
         <div class="column is-one-fifth"></div>
-        <div class="column has-background-green">
+        <div class="column mt-6">
           <h1 class="title">
             <img
               src="../assets/img/signature.png"
@@ -37,5 +37,12 @@ export default class Banner extends Vue {}
 }
 .banner-content {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .bg-image {
+    background-image: url("../assets/img/BackCover.jpeg");
+    background-size: cover;
+  }
 }
 </style>

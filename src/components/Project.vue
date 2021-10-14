@@ -17,21 +17,21 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "Project",
-  props: {
-    img: String,
-    imgAlt: String,
-    title: String,
-    subtitle: String,
-    description: String,
-  },
-  methods: {
-    getImgUrl(img) {
-      const images = require.context("../assets/img", false, /\.png$/);
-      return images("./" + img);
-    },
-  },
-};
+<script lang="ts">
+import Vue from "vue";
+import { Component, Prop } from "vue-property-decorator";
+
+@Component
+export default class Project extends Vue {
+  @Prop() img!: string;
+  @Prop() imgAlt!: string;
+  @Prop() title!: string;
+  @Prop() subtitle!: string;
+  @Prop() description!: string;
+
+  getImgUrl(img: string) {
+    const images = require.context("../assets/img", false, /\.png$/);
+    return images("./" + img);
+  }
+}
 </script>

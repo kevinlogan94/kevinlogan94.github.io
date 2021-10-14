@@ -6,7 +6,7 @@ $theme-blue: #2d3e50;
 $grey: #adb1b3;
 $turquoise: #008571;
 $red: #cc2d4d;
-$purple: #694b6f;
+//$purple: #694b6f;
 $stone-grey: #adb1b3;
 
 /* Base: Size  */
@@ -27,13 +27,13 @@ $info: $blue;
 $link: $blue;
 
 $danger: $red;
-$link-visited: $purple;
+$link-visited: $theme-blue;
 $light-border: 1px solid $base-color-light;
 $hr-height: 1px;
 
 /* Navbar */
 div.navbar-menu.is-active {
-  background-color: $purple;
+  background-color: $theme-blue;
 }
 a.navbar-item.has-text-white:hover {
   background-color: rgba(0, 0, 0, 0.05);

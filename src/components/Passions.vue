@@ -7,8 +7,8 @@
         <div class="columns">
           <b-carousel-list
             :data="passions"
-            items-to-show="2"
-            items-to-list="1"
+            :items-to-show="2"
+            :items-to-list="1"
             :repeat="true"
           >
             <template #item="passion">
@@ -84,8 +84,14 @@ export default class Passions extends Vue {
     },
   ];
 
-  triggerCarouselTransition() {
+  mounted() {
+    setInterval(this.triggerCarouselTransition, 7500);
+  }
 
+  triggerCarouselTransition() {
+    const chevron = document.getElementsByClassName("has-icons-right")[0];
+    const clickEvent = new Event("click");
+    chevron.dispatchEvent(clickEvent);
   }
 }
 </script>

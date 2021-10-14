@@ -14,19 +14,23 @@
   </div>
 </template>
 
-<script>
-import Banner from "./components/Banner";
-import Connect from "./components/Connect";
-import Passions from "./components/Passions";
-import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
+<script lang="ts">
+import Banner from "@/components/Banner";
+import Connect from "@/components/Connect";
+import Passions from "@/components/Passions";
+import Navbar from "@/components/Navbar";
+import AboutMe from "@/components/AboutMe";
 import Library from "@/components/Library";
 import IntrigueGames from "@/components/IntrigueGames";
 import Mindfulness from "@/components/Mindfulness";
 import Projects from "@/components/Projects";
 
-export default {
-  name: "app",
+import Vue from "vue";
+import { Component } from "vue-property-decorator";
+
+import {logEvent} from "firebase/analytics";
+
+@Component({
   components: {
     Projects,
     Mindfulness,
@@ -38,7 +42,12 @@ export default {
     Navbar,
     AboutMe,
   },
-};
+})
+export default class App extends Vue {
+  mounted() {
+    logEvent(this.$analytics, "page_view");
+  }
+}
 </script>
 
 <style lang="scss"></style>

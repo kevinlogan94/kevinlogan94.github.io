@@ -2,10 +2,10 @@
   <section class="hero is-primary software">
     <div class="hero-body">
       <div class="container">
-        <div class="heading has-text-centered">
-          <h1 class="title">Software Engineering</h1>
-          <h2 class="subtitle">Enterprise and Start-Up Projects</h2>
-        </div>
+        <h1 class="title has-text-centered">Software Engineering</h1>
+        <h2 class="subtitle has-text-centered">
+          Enterprise and Start-Up Projects
+        </h2>
         <section class="section">
           <div class="container">
             <div class="tile is-ancestor">

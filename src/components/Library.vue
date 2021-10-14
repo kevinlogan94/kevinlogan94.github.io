@@ -8,8 +8,8 @@
         </h2>
         <b-carousel-list
           :data="items"
-          items-to-show="4"
-          items-to-list="1"
+          :items-to-show="4"
+          :items-to-list="1"
           :arrow-hover="false"
           :repeat="true"
         ></b-carousel-list>
@@ -74,6 +74,17 @@ export default class Library extends Vue {
       image: "https://m.media-amazon.com/images/I/51Em8qZ9mqL.jpg",
     },
   ];
+
+  mounted() {
+    setInterval(this.triggerCarouselTransition, 7500);
+  }
+
+  triggerCarouselTransition() {
+    const rightIcons = document.getElementsByClassName("has-icons-right");
+    const chevron = rightIcons[rightIcons.length - 1];
+    const clickEvent = new Event("click");
+    chevron.dispatchEvent(clickEvent);
+  }
 }
 </script>
 
