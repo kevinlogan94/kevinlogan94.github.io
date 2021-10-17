@@ -26,8 +26,9 @@
             </p>
             <p class="content">
               Thanks for visiting me on my corner of the internet. This site is
-              where you can find all the things that have guided me to where I
-              am now and maybe they can help you on your journey as well.
+              where you can find some the things that have guided me to where I
+              am now and what I'm currently up to. I hope that they can help you
+              on your journey as well.
             </p>
           </div>
         </div>

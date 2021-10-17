@@ -39,7 +39,7 @@
                     subtitle="Full Stack Engineer"
                     img="CFI.png"
                     imgAlt="test"
-                    description="At NaviStone, as one of the four engineers of the company, I built several applications on the web and in the cloud. By far my biggest challenge yet."
+                    description="At NaviStone, I built several applications on the web and in the cloud. By far my biggest challenge yet."
                   />
                 </div>
               </div>
