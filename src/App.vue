@@ -15,15 +15,15 @@
 </template>
 
 <script lang="ts">
-import Banner from "@/components/Banner";
-import Connect from "@/components/Connect";
-import Passions from "@/components/Passions";
-import Navbar from "@/components/Navbar";
-import AboutMe from "@/components/AboutMe";
-import Library from "@/components/Library";
-import IntrigueGames from "@/components/IntrigueGames";
-import Mindfulness from "@/components/Mindfulness";
-import Projects from "@/components/Projects";
+import Banner from "@/components/Banner.vue";
+import Connect from "@/components/Connect.vue";
+import Passions from "@/components/Passions.vue";
+import Navbar from "@/components/Navbar.vue";
+import AboutMe from "@/components/AboutMe.vue";
+import Library from "@/components/Library.vue";
+import IntrigueGames from "@/components/IntrigueGames.vue";
+import Mindfulness from "@/components/Mindfulness.vue";
+import Projects from "@/components/Projects.vue";
 
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
