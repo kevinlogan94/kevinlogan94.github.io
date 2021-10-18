@@ -8,7 +8,7 @@
         </h2>
         <b-carousel-list
           :data="items"
-          :items-to-show="4"
+          :items-to-show="3"
           :items-to-list="1"
           :arrow-hover="false"
           :repeat="true"

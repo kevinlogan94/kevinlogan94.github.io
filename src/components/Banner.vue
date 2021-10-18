@@ -39,10 +39,10 @@ export default class Banner extends Vue {}
   width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  .bg-image {
-    background-image: url("../assets/img/BackCover.jpeg");
-    background-size: cover;
-  }
-}
+//@media only screen and (max-width: 600px) {
+//  .bg-image {
+//    background-image: url("../assets/img/BackCover.jpeg");
+//    background-size: cover;
+//  }
+//}
 </style>
