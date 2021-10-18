@@ -59,7 +59,7 @@ export default class NavBar extends Vue {
   scrollIntoView(classNameOfSection: string) {
     const element = document.getElementsByClassName(classNameOfSection)[0];
     if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "center" });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   }
 }
