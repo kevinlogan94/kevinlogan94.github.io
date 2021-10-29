@@ -6,7 +6,7 @@
         <div class="columns is-vcentered">
           <div class="column">
             <img
-              :src="require('@/assets/story-animation.gif')"
+              src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/story-animation.gif?alt=media&token=6be366e6-208a-45b3-8543-42b14050f504"
               alt="Xal at his desk"
               class="image"
             />

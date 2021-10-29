@@ -6,8 +6,8 @@
         <div class="column mt-6">
           <h1 class="title">
             <img
-              src="../assets/img/signature.png"
-              alt="Xal title"
+              src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/signature.png?alt=media&token=782f3594-27e3-4493-9a6f-2eed114dad0e"
+              alt="Signature"
               class="image"
             />
           </h1>
@@ -32,7 +32,7 @@ export default class Banner extends Vue {}
 
 <style lang="scss" scoped>
 .bg-image {
-  background-image: url("../assets/img/BackCover.jpeg");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/BackCover.jpeg?alt=media&token=f32f7a31-740b-44a7-aa07-fb03b62c2cda");
   background-size: 100% 100%;
 }
 .banner-content {

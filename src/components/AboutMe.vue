@@ -6,7 +6,7 @@
         <div class="columns is-vcentered">
           <div class="column">
             <img
-              src="../assets/img/stud.jpeg"
+              src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/stud.jpeg?alt=media&token=049bec4e-70f1-4479-871b-cb29fddb96fd"
               alt="Profile Picture"
               class="image"
             />

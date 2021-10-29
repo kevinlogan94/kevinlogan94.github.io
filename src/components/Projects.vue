@@ -14,15 +14,15 @@
                   <Project
                     title="Fifth Third Bank"
                     subtitle="Angular and UI Developer"
-                    img="ROB.png"
-                    imgAlt="test"
+                    img="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/ROB.png?alt=media&token=8a95a607-102b-45b3-9046-99b7a5a2a919"
+                    imgAlt="Responsive Online Banking Project"
                     description="At Fifth Third Bank, I focused on the online banking application and building new features like Offers, Products, Lost & Stolen Card, and Check Order."
                   />
                   <Project
                     title="Hasbro"
                     subtitle="UI, PHP, and JQuery Developer"
-                    img="Hasbro.png"
-                    imgAlt="test"
+                    img="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/Hasbro.png?alt=media&token=ae6cbdc5-26bf-419f-8b40-22b85e82baac"
+                    imgAlt="Hasbro Project"
                     description="At Hasbro, I got to build a creative and fun user experience by completing full site redesigns. My primary focus was on Transformers, My Little Pony, and Littlest Pet Shop."
                   />
                 </div>
@@ -30,15 +30,15 @@
                   <Project
                     title="TCS"
                     subtitle="UI and React Developer, UX Designer"
-                    img="TCS.png"
-                    imgAlt="test"
+                    img="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/TCS.png?alt=media&token=d99696bd-26c0-47c9-8e44-eaa475243dfd"
+                    imgAlt="TCS Project"
                     description="At TCS, I offered customers a smoother check-in process by designing and building their front desk application. Features included incorporating employee directory and badge sign-in."
                   />
                   <Project
                     title="NaviStone"
                     subtitle="Full Stack Engineer"
-                    img="CFI.png"
-                    imgAlt="test"
+                    img="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/CFI.png?alt=media&token=d6baf6d7-c8d0-4486-86df-1f69de0c4c6d"
+                    imgAlt="Client Facing Interface Project"
                     description="At NaviStone, I built several applications on the web and in the cloud. By far my biggest challenge yet."
                   />
                 </div>

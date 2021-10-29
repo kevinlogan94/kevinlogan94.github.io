@@ -9,7 +9,7 @@
         </div>
         <div class="column">
           <figure class="image is-3by2">
-            <img :src="getImgUrl(img)" :alt="imgAlt" />
+            <img :src="img" :alt="imgAlt" />
           </figure>
         </div>
       </div>
@@ -28,10 +28,5 @@ export default class Project extends Vue {
   @Prop() title!: string;
   @Prop() subtitle!: string;
   @Prop() description!: string;
-
-  getImgUrl(img: string) {
-    const images = require.context("../assets/img", false, /\.png$/);
-    return images("./" + img);
-  }
 }
 </script>
