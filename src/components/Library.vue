@@ -42,10 +42,6 @@ export default class Library extends Vue {
       image: "https://m.media-amazon.com/images/I/41OjnXiiB1L.jpg",
     },
     {
-      title: "How to be a 3% Man",
-      image: "https://m.media-amazon.com/images/I/51nZECMYKsL.jpg",
-    },
-    {
       title: "Mastering Yourself",
       image: "https://m.media-amazon.com/images/I/51bjykpGDfL.jpg",
     },

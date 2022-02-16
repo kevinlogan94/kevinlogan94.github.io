@@ -11,7 +11,7 @@
               class="image"
             />
           </h1>
-          <h2 class="subtitle has-text-black has-text-weight-bold">
+          <h2 class="subtitle has-text-weight-bold">
             Software Engineer, Meditator, Philomath, Video Game Designer
           </h2>
         </div>

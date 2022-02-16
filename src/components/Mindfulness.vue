@@ -38,8 +38,7 @@ export default class Mindfulness extends Vue {
     {
       title: "Calm",
       location: "https://calm.com",
-      image:
-        "https://cdn.freelogovectors.net/wp-content/uploads/2020/11/calm_logo.png",
+      image: "https://assets.sonos.com/care/kb/images/FAQ3146/calmlogo.png",
     },
     {
       title: "Balance",
