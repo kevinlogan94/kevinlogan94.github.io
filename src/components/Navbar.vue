@@ -4,9 +4,6 @@
       <b-navbar-item href="https://twitter.com/KevinLogan12">
         <b-icon type="is-white" icon="twitter" title="Twitter Icon"></b-icon
       ></b-navbar-item>
-      <b-navbar-item href="https://www.facebook.com/kevin.logan1">
-        <b-icon type="is-white" icon="facebook" title="Facebook Icon"></b-icon
-      ></b-navbar-item>
       <b-navbar-item href="https://www.linkedin.com/in/kevin-logan-73277594/">
         <b-icon type="is-white" icon="linkedin" title="LinkedIn Icon"></b-icon
       ></b-navbar-item>

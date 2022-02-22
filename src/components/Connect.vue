@@ -15,14 +15,6 @@
                   title="Twitter Icon"
                 ></b-icon>
               </a>
-              <a href="https://www.facebook.com/kevin.logan1">
-                <b-icon
-                  type="is-white"
-                  icon="facebook"
-                  size="is-medium"
-                  title="Facebook Icon"
-                ></b-icon>
-              </a>
               <a href="https://www.linkedin.com/in/kevin-logan-73277594/">
                 <b-icon
                   type="is-white"

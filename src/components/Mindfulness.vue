@@ -38,7 +38,8 @@ export default class Mindfulness extends Vue {
     {
       title: "Calm",
       location: "https://calm.com",
-      image: "https://assets.sonos.com/care/kb/images/FAQ3146/calmlogo.png",
+      image:
+        "https://enrichmentcentre.ca/wp-content/uploads/2021/08/calm_logo.png",
     },
     {
       title: "Balance",
