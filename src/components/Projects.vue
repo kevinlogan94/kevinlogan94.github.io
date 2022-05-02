@@ -53,10 +53,9 @@
 
 <script lang="ts">
 import Project from "@/components/Project.vue";
-import Vue from "vue";
-import { Component } from "vue-property-decorator";
+import { Options, Vue } from "vue-property-decorator";
 
-@Component({
+@Options({
   components: { Project },
 })
 export default class Projects extends Vue {}

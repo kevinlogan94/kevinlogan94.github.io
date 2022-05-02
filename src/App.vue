@@ -25,12 +25,11 @@ import IntrigueGames from "@/components/IntrigueGames.vue";
 import Mindfulness from "@/components/Mindfulness.vue";
 import Projects from "@/components/Projects.vue";
 
-import Vue from "vue";
-import { Component } from "vue-property-decorator";
-
+import { Options, Vue } from "vue-property-decorator";
+import analytics from "@/firebase";
 import {logEvent} from "firebase/analytics";
 
-@Component({
+@Options({
   components: {
     Projects,
     Mindfulness,
@@ -45,7 +44,7 @@ import {logEvent} from "firebase/analytics";
 })
 export default class App extends Vue {
   mounted() {
-    logEvent(this.$analytics, "page_view");
+    logEvent(analytics, "page_view");
   }
 }
 </script>

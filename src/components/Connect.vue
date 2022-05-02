@@ -48,10 +48,9 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import { Component } from "vue-property-decorator";
+import { Options, Vue } from "vue-property-decorator";
 
-@Component
+@Options({})
 export default class Connect extends Vue {}
 </script>
 

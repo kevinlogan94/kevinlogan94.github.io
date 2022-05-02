@@ -18,10 +18,9 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import { Component, Prop } from "vue-property-decorator";
+import { Options, Vue, Prop } from "vue-property-decorator";
 
-@Component
+@Options({})
 export default class Project extends Vue {
   @Prop() img!: string;
   @Prop() imgAlt!: string;

@@ -53,10 +53,9 @@
 </template>
 
 <script lang="ts">
-import { Component } from "vue-property-decorator";
-import Vue from "vue";
+import { Options, Vue } from "vue-property-decorator";
 
-@Component
+@Options({})
 export default class NavBar extends Vue {
   scrollIntoView(classNameOfSection: string) {
     const element = document.getElementsByClassName(classNameOfSection)[0];
