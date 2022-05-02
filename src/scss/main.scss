@@ -4,6 +4,9 @@
 /* Core Libs & Lib configs */
 @import "libs/all";
 
+@import "node_modules/bulma/bulma";
+@import "node_modules/@oruga-ui/theme-bulma/dist/scss/bulma";
+
 body {
   font-size: 1em;
   color: black;

@@ -18,23 +18,23 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="icons/apple-touch-icon.png"
+      href="/icons/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="icons/favicon-32x32.png"
+      href="/icons/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="icons/favicon-16x16.png"
+      href="/icons/favicon-16x16.png"
     />
     <!--    Theme    -->
-    <link rel="manifest" href="icons/site.webmanifest" />
-    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#2d3e50" />
+    <link rel="manifest" href="/icons/site.webmanifest" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2d3e50" />
     <meta name="msapplication-TileColor" content="#2d3e50" />
     <meta name="theme-color" content="#ffffff" />
     <!--   Material Icons   -->
@@ -42,18 +42,16 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css"
     />
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" href="/favicon.ico" />
+    <title>Kevin Logan - Software Engineer, Meditator, Philomath, Video Game Designer</title>
   </head>
   <body>
     <noscript>
       <strong
-        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
-        properly without JavaScript enabled. Please enable it to
-        continue.</strong
+        >We're sorry but this app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong
       >
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

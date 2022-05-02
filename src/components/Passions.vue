@@ -5,28 +5,23 @@
         <h1 class="title has-text-centered">Passions</h1>
         <h2 class="subtitle has-text-centered">What I do at a glance.</h2>
         <div class="columns">
-          <b-carousel-list
-            :data="passions"
-            :items-to-show="2"
-            :items-to-list="1"
-            :repeat="true"
-          >
-            <template #item="passion">
+          <o-carousel :items-to-show="2" :items-to-list="1" :repeat="true">
+            <o-carousel-item v-for="(passion, i) in passions" :key="i">
               <div class="has-text-centered column">
                 <div class="container content">
-                  <b-icon
+                  <o-icon
                     :icon="passion.icon"
-                    size="is-large"
-                    type="is-primary"
-                  ></b-icon>
+                    size="large"
+                    variant="primary"
+                  ></o-icon>
                   <p>{{ passion.title }}</p>
                 </div>
                 <p class="content">
                   {{ passion.description }}
                 </p>
               </div>
-            </template>
-          </b-carousel-list>
+            </o-carousel-item>
+          </o-carousel>
         </div>
       </div>
     </div>

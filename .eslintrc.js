@@ -2,7 +2,7 @@ module.exports = {
   root: true,
 
   env: {
-    node: true,
+    es2021: true,
   },
 
   rules: {
@@ -10,9 +10,9 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
   },
 
-  parserOptions: {
-    parser: "@typescript-eslint/parser",
-  },
+  // parserOptions: {
+  //   parser: "@typescript-eslint/parser",
+  // },
 
   extends: ["plugin:vue/essential", "@vue/prettier", "@vue/typescript"],
 };

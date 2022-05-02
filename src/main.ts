@@ -1,6 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
-import Buefy from "buefy";
+import Oruga from "@oruga-ui/oruga";
+import { bulmaConfig } from "@oruga-ui/theme-bulma";
 import "@/scss/main.scss";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -26,11 +27,8 @@ const analytics = getAnalytics(app);
 
 Vue.prototype.$analytics = analytics;
 
-Vue.use(Buefy);
+Vue.use(Oruga, bulmaConfig);
 Vue.config.productionTip = false;
-
-document.title =
-  "Kevin Logan - Software Engineer, Meditator, Philomath, Video Game Designer";
 
 new Vue({
   render: (h) => h(App),

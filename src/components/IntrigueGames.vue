@@ -20,9 +20,9 @@
               rid the realm of a terrible blight and uncover the deceitful truth
               behind it.
             </p>
-            <b-button type="" @click="OpenIntrigueGames" size="is-medium"
+            <o-button type="" @click="OpenIntrigueGames" size="is-medium"
               >Launch Website
-            </b-button>
+            </o-button>
           </div>
         </div>
       </div>

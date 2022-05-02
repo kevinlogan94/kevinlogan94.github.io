@@ -8,36 +8,36 @@
 
             <div class="block">
               <a href="https://twitter.com/KevinLogan12">
-                <b-icon
-                  type="is-white"
+                <o-icon
+                  variant="white"
                   icon="twitter"
-                  size="is-medium"
+                  size="medium"
                   title="Twitter Icon"
-                ></b-icon>
+                ></o-icon>
               </a>
               <a href="https://www.linkedin.com/in/kevin-logan-73277594/">
-                <b-icon
-                  type="is-white"
+                <o-icon
+                  variant="white"
                   icon="linkedin"
-                  size="is-medium"
+                  size="medium"
                   title="LinkedIn Icon"
-                ></b-icon>
+                ></o-icon>
               </a>
               <a href="https://www.instagram.com/kevinlogan7/">
-                <b-icon
-                  type="is-white"
+                <o-icon
+                  variant="white"
                   icon="instagram"
-                  size="is-medium"
+                  size="medium"
                   title="Instagram Icon"
-                ></b-icon>
+                ></o-icon>
               </a>
               <a href="https://github.com/kevinlogan94">
-                <b-icon
-                  type="is-white"
+                <o-icon
+                  variant="white"
                   icon="github"
-                  size="is-medium"
+                  size="medium"
                   title="Github Icon"
-                ></b-icon>
+                ></o-icon>
               </a>
             </div>
           </div>

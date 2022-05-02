@@ -6,23 +6,23 @@
         <h2 class="subtitle has-text-centered">
           The best platforms that I use for calm and mental programming.
         </h2>
-        <b-carousel-list
-          :data="items"
+        <o-carousel
           :items-to-show="5"
           :items-to-list="1"
           :arrow-hover="false"
           :arrow="false"
           :repeat="true"
+          :indicator="false"
         >
-          <template #item="item">
+          <o-carousel-item v-for="(item, i) in items" :key="i">
             <figure
               class="image"
               @click="openMindfulnessPlatform(item.location)"
             >
               <img :src="item.image" :alt="item.title" :title="item.title" />
             </figure>
-          </template>
-        </b-carousel-list>
+          </o-carousel-item>
+        </o-carousel>
       </div>
     </div>
   </section>

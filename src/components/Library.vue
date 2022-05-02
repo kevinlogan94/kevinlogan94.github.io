@@ -6,13 +6,17 @@
         <h2 class="subtitle has-text-centered">
           The Personal-Development books that have molded who I am today.
         </h2>
-        <b-carousel-list
+        <o-carousel
           :data="items"
           :items-to-show="3"
           :items-to-list="1"
           :arrow-hover="false"
           :repeat="true"
-        ></b-carousel-list>
+        >
+          <o-carousel-item v-for="(item, i) in items" :key="i">
+            <img :src="item.image" alt="t" />
+          </o-carousel-item>
+        </o-carousel>
       </div>
     </div>
   </section>

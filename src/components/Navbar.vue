@@ -1,50 +1,55 @@
 <template>
-  <b-navbar type="is-primary" :spaced="true" :fixed-top="true">
-    <template #brand>
-      <b-navbar-item href="https://twitter.com/KevinLogan12">
-        <b-icon type="is-white" icon="twitter" title="Twitter Icon"></b-icon
-      ></b-navbar-item>
-      <b-navbar-item href="https://www.linkedin.com/in/kevin-logan-73277594/">
-        <b-icon type="is-white" icon="linkedin" title="LinkedIn Icon"></b-icon
-      ></b-navbar-item>
-      <b-navbar-item href="https://www.instagram.com/kevinlogan7/"
-        ><b-icon
-          type="is-white"
+  <nav
+    class="navbar is-primary is-fixed-top is-spaced"
+    aria-label="main navigation"
+  >
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://twitter.com/KevinLogan12">
+        <o-icon variant="white" icon="twitter" title="Twitter Icon"></o-icon
+      ></a>
+      <a
+        class="navbar-item"
+        href="https://www.linkedin.com/in/kevin-logan-73277594/"
+      >
+        <o-icon variant="white" icon="linkedin" title="LinkedIn Icon"></o-icon
+      ></a>
+      <a class="navbar-item" href="https://www.instagram.com/kevinlogan7/"
+        ><o-icon
+          variant="white"
           icon="instagram"
           title="Instagram Icon"
-        ></b-icon
-      ></b-navbar-item>
-      <b-navbar-item href="https://github.com/kevinlogan94"
-        ><b-icon type="is-white" icon="github" title="Github Icon"></b-icon
-      ></b-navbar-item>
-    </template>
-    <template #start> </template>
-    <template #end>
-      <b-navbar-item class="has-text-white" @click="scrollIntoView('aboutMe')"
-        >About Me</b-navbar-item
+        ></o-icon
+      ></a>
+      <a class="navbar-item" href="https://github.com/kevinlogan94"
+        ><o-icon variant="white" icon="github" title="Github Icon"></o-icon
+      ></a>
+    </div>
+    <div class="navbar-end">
+      <a class="navbar-item has-text-white" @click="scrollIntoView('aboutMe')"
+        >About Me</a
       >
-      <b-navbar-item class="has-text-white" @click="scrollIntoView('passions')"
-        >Passions</b-navbar-item
+      <a class="navbar-item has-text-white" @click="scrollIntoView('passions')"
+        >Passions</a
       >
-      <b-navbar-item class="has-text-white" @click="scrollIntoView('software')"
-        >Software</b-navbar-item
+      <a class="navbar-item has-text-white" @click="scrollIntoView('software')"
+        >Software</a
       >
-      <b-navbar-item
-        class="has-text-white"
+      <a
+        class="navbar-item has-text-white"
         @click="scrollIntoView('meditation')"
-        >Meditation</b-navbar-item
+        >Meditation</a
       >
-      <b-navbar-item class="has-text-white" @click="scrollIntoView('games')"
-        >Games</b-navbar-item
+      <a class="navbar-item has-text-white" @click="scrollIntoView('games')"
+        >Games</a
       >
-      <b-navbar-item class="has-text-white" @click="scrollIntoView('library')"
-        >Library</b-navbar-item
+      <a class="navbar-item has-text-white" @click="scrollIntoView('library')"
+        >Library</a
       >
-      <b-navbar-item class="has-text-white" @click="scrollIntoView('connect')"
-        >Connect</b-navbar-item
+      <a class="navbar-item has-text-white" @click="scrollIntoView('connect')"
+        >Connect</a
       >
-    </template>
-  </b-navbar>
+    </div>
+  </nav>
 </template>
 
 <script lang="ts">
