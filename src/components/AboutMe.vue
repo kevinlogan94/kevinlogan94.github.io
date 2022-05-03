@@ -18,9 +18,8 @@
               and NaviStone.
             </p>
             <p class="content">
-              I'm the kind of guy that wakes up everyday and constantly asks
-              himself, what is one thing I can do today to become better. Ever
-              since I was very young I have always had a burning passion for
+              I'm a guy constantly working to become 1% better every day. Ever
+              since I was very young, I have always had a burning passion for
               everything that I do. I am truly obsessed with progress and slowly
               becoming the best version of myself.
             </p>

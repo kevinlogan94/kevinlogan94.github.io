@@ -9,10 +9,8 @@
         <o-carousel
           :items-to-show="5"
           :items-to-list="1"
-          :arrow-hover="false"
-          :arrow="false"
-          :repeat="true"
           :indicator="false"
+          class="is-flex-centered"
         >
           <o-carousel-item v-for="(item, i) in items" :key="i">
             <figure
@@ -47,21 +45,10 @@ export default class Mindfulness extends Vue {
         "https://mindoverlatte.com/wp-content/uploads/2020/05/A-Balance.png",
     },
     {
-      title: "Live the Life You Love",
-      location: "https://www.youtube.com/c/Ilivethelifeilove",
-      image:
-        "https://yt3.ggpht.com/ytc/AKedOLRuB_u8abOk3l8x74BmJ6WQbha-c81_kiTxk_2XAw=s900-c-k-c0x00ffffff-no-rj",
-    },
-    {
       title: "Jason Stephenson",
       location: "https://www.youtube.com/c/JasonStephensonSleepMeditationMusic",
       image:
         "https://yt3.ggpht.com/ytc/AKedOLQDcNwpiqi0OEZb7ZZOw8jJLTUpPt1JaSoWHmLn9w=s900-c-k-c0x00ffffff-no-rj",
-    },
-    {
-      title: "Master Sri Akarshana",
-      location: "https://www.youtube.com/c/MasterSriAkarshana",
-      image: "https://angartwork.akamaized.net/?id=144848534&size=640",
     },
   ];
 
@@ -74,5 +61,9 @@ export default class Mindfulness extends Vue {
 <style lang="scss">
 .meditation figure {
   cursor: pointer;
+}
+.is-flex-centered > div {
+  display: flex;
+  justify-content: center;
 }
 </style>

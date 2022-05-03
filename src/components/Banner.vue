@@ -12,7 +12,7 @@
             />
           </h1>
           <h2 class="subtitle has-text-weight-bold">
-            Software Engineer, Meditator, Philomath, Video Game Designer
+            Software Engineer, Meditator, Landlord, Video Game Designer
           </h2>
         </div>
         <div class="column is-one-quarter"></div>
@@ -30,12 +30,14 @@ export default class Banner extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-.bg-image {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/BackCover.jpeg?alt=media&token=f32f7a31-740b-44a7-aa07-fb03b62c2cda");
-  background-size: 100% 100%;
-}
-.banner-content {
-  width: 100%;
+@media screen and (min-width: 769px), print {
+  .bg-image {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/BackCover.jpeg?alt=media&token=f32f7a31-740b-44a7-aa07-fb03b62c2cda");
+    background-size: 100% 100%;
+  }
+  .banner-content {
+    width: 100%;
+  }
 }
 
 //@media only screen and (max-width: 600px) {

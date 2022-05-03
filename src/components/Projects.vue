@@ -36,10 +36,10 @@
                   />
                   <Project
                     title="NaviStone"
-                    subtitle="Full Stack Engineer"
+                    subtitle="Software Engineering Manager"
                     img="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/CFI.png?alt=media&token=d6baf6d7-c8d0-4486-86df-1f69de0c4c6d"
                     imgAlt="Client Facing Interface Project"
-                    description="At NaviStone, I built several applications on the web and in the cloud. By far my biggest challenge yet."
+                    description="At NaviStone, you can find my team and I working on Project Atlas and Project Iris. Two big projects that are projected to pave the future path of the company."
                   />
                 </div>
               </div>

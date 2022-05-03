@@ -37,8 +37,8 @@ export default class Library extends Vue {
       image: "https://m.media-amazon.com/images/I/41ssxrhLwCL.jpg",
     },
     {
-      title: "Start Where You Are",
-      image: "https://m.media-amazon.com/images/I/51WVBVDl4cL.jpg",
+      title: "How to Win Friends & Influence People",
+      image: "https://m.media-amazon.com/images/I/51PWIy1rHUL.jpg",
     },
     {
       title: "Range",
@@ -53,24 +53,20 @@ export default class Library extends Vue {
       image: "https://m.media-amazon.com/images/I/61pqlNBnmQL.jpg",
     },
     {
-      title: "How to Win Friends & Influence People",
-      image: "https://m.media-amazon.com/images/I/51PWIy1rHUL.jpg",
-    },
-    {
-      title: "Letting Go: The Pathway of Surrender",
-      image: "https://m.media-amazon.com/images/I/41BoLINwhQL.jpg",
+      title: "Man's Search for Meaning",
+      image: "https://m.media-amazon.com/images/I/51L04pj+1JL.jpg",
     },
     {
       title: "The Art of Seduction",
       image: "https://m.media-amazon.com/images/I/41+FfYVLnEL.jpg",
     },
     {
-      title: "Heart of the Soul",
-      image: "https://m.media-amazon.com/images/I/51kqjUwGBrL.jpg",
+      title: "Letting Go: The Pathway of Surrender",
+      image: "https://m.media-amazon.com/images/I/41BoLINwhQL.jpg",
     },
     {
-      title: "The Seat of the Soul",
-      image: "https://m.media-amazon.com/images/I/51Em8qZ9mqL.jpg",
+      title: "Start Where You Are",
+      image: "https://m.media-amazon.com/images/I/51WVBVDl4cL.jpg",
     },
   ];
 

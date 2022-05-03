@@ -53,10 +53,10 @@ export default class Passions extends Vue {
         "After surviving a traumatic event in my early twenties, I use mindfulness every day to constantly be in a state of calm and control over the present moment.",
     },
     {
-      icon: "wrench",
-      title: "Api Engineering",
+      icon: "cloud",
+      title: "Cloud Services",
       description:
-        "To bring my Web Applications to life, I design and build APIs to provide a constant connection to the data in the cloud.",
+        "To bring my Web Applications to life, I create a steam line between applications and data by building cloud solutions.",
     },
     {
       icon: "book-open-variant",
@@ -74,7 +74,13 @@ export default class Passions extends Vue {
       icon: "auto-fix",
       title: "Art",
       description:
-        "I use pixel art to draw regions, creatures, and animations to bring video games to life and offer an immersive experience.",
+        "I use pixel art to bring video games to life and offer an immersive animated experience.",
+    },
+    {
+      icon: "home",
+      title: "Real Estate",
+      description:
+        "I currently lease out rental property to provide a quality living experience to some of the best renters around.",
     },
   ];
 
