@@ -9,6 +9,7 @@
       <Mindfulness />
       <IntrigueGames />
       <Library />
+      <RealEstate />
       <Connect />
     </main>
   </div>
@@ -24,10 +25,11 @@ import Library from "@/components/Library.vue";
 import IntrigueGames from "@/components/IntrigueGames.vue";
 import Mindfulness from "@/components/Mindfulness.vue";
 import Projects from "@/components/Projects.vue";
+import RealEstate from "@/components/RealEstate.vue";
 
 import { Options, Vue } from "vue-property-decorator";
 import analytics from "@/firebase";
-import {logEvent} from "firebase/analytics";
+import { logEvent } from "firebase/analytics";
 
 @Options({
   components: {
@@ -40,6 +42,7 @@ import {logEvent} from "firebase/analytics";
     Passions,
     Navbar,
     AboutMe,
+    RealEstate,
   },
 })
 export default class App extends Vue {

@@ -50,6 +50,12 @@ export default class Mindfulness extends Vue {
       image:
         "https://yt3.ggpht.com/ytc/AKedOLQDcNwpiqi0OEZb7ZZOw8jJLTUpPt1JaSoWHmLn9w=s900-c-k-c0x00ffffff-no-rj",
     },
+    {
+      title: "Mindful Waves Studio",
+      location: "https://www.youtube.com/c/MindfulWavesStudio",
+      image:
+        "https://yt3.ggpht.com/ytc/AKedOLS0Nu-j4uIT72hVVdJ_ftKVUt2DPBhvO7l_bLbs7Q=s900-c-k-c0x00ffffff-no-rj",
+    },
   ];
 
   openMindfulnessPlatform(location: string) {
