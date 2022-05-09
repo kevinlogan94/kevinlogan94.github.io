@@ -1,6 +1,6 @@
 <template>
   <div class="tile is-parent">
-    <article class="tile is-child box has-text-centered">
+    <article class="tile is-child box has-text-centered" v-scroll-animation>
       <div class="columns">
         <div class="column has-text-centered">
           <h4 class="title is-4 has-text-black">{{ title }}</h4>
@@ -29,3 +29,15 @@ export default class Project extends Vue {
   @Prop() description!: string;
 }
 </script>
+
+<style lang="scss" scoped>
+.software .before-enter {
+  opacity: 0;
+  transform: scale(0.5) rotateZ(-25deg);
+  transition: all 1s ease-out;
+}
+.software .enter {
+  opacity: 1;
+  transform: scale(1) rotateZ(0);
+}
+</style>

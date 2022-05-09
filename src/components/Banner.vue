@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="columns banner-content mt-6">
         <div class="column is-one-fifth"></div>
-        <div class="column mt-6">
+        <div class="column mt-6" v-scroll-animation>
           <h1 class="title">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/signature.png?alt=media&token=782f3594-27e3-4493-9a6f-2eed114dad0e"
@@ -58,11 +58,4 @@ export default class Banner extends Vue {}
     flex-direction: column;
   }
 }
-
-//@media only screen and (max-width: 600px) {
-//  .bg-image {
-//    background-image: url("../assets/img/BackCover.jpeg");
-//    background-size: cover;
-//  }
-//}
 </style>

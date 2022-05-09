@@ -4,7 +4,7 @@
       <div class="container">
         <div class="columns is-centered is-mobile">
           <div class="column is-half has-text-centered">
-            <h1 class="title">Want to Connect?</h1>
+            <h1 class="title" v-scroll-animation>Want to Connect?</h1>
 
             <div class="block">
               <a href="https://twitter.com/KevinLogan12">

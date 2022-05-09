@@ -2,8 +2,8 @@
   <section class="hero is-primary software">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-centered">Software Engineering</h1>
-        <h2 class="subtitle has-text-centered">
+        <h1 class="title has-text-centered" v-scroll-animation>Software Engineering</h1>
+        <h2 class="subtitle has-text-centered" v-scroll-animation>
           Enterprise and Start-Up Projects
         </h2>
         <section class="section">
@@ -60,7 +60,3 @@ import { Options, Vue } from "vue-property-decorator";
 })
 export default class Projects extends Vue {}
 </script>
-
-<!--<style lang="scss">-->
-<!--.tile-->
-<!--</style>-->

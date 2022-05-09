@@ -2,8 +2,8 @@
   <section class="hero meditation">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-centered">Meditation</h1>
-        <h2 class="subtitle has-text-centered">
+        <h1 class="title has-text-centered" v-scroll-animation>Meditation</h1>
+        <h2 class="subtitle has-text-centered" v-scroll-animation>
           The best platforms that I use for calm and mental programming.
         </h2>
         <o-carousel
@@ -11,6 +11,7 @@
           :items-to-list="1"
           :indicator="false"
           class="is-flex-centered"
+          v-scroll-animation
         >
           <o-carousel-item v-for="(item, i) in items" :key="i">
             <figure

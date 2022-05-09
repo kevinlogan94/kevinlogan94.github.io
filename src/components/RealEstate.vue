@@ -2,8 +2,8 @@
   <section class="hero is-success">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-centered">Real Estate</h1>
-        <h2 class="subtitle has-text-centered">Coming Soon...</h2>
+        <h1 class="title has-text-centered" v-scroll-animation>Real Estate</h1>
+        <h2 class="subtitle has-text-centered" v-scroll-animation>Coming Soon...</h2>
       </div>
     </div>
   </section>

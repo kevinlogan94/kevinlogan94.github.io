@@ -2,10 +2,10 @@
   <section id="passions" class="hero passions">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-centered">Passions</h1>
-        <h2 class="subtitle has-text-centered">What I do at a glance.</h2>
+        <h1 class="title has-text-centered" v-scroll-animation>Passions</h1>
+        <h2 class="subtitle has-text-centered" v-scroll-animation>What I do at a glance.</h2>
         <div class="columns">
-          <o-carousel :items-to-show="2" :items-to-list="1" :repeat="true">
+          <o-carousel :items-to-show="2" :items-to-list="1" :repeat="true" v-scroll-animation>
             <o-carousel-item v-for="(passion, i) in passions" :key="i">
               <div class="has-text-centered column">
                 <div class="container content">

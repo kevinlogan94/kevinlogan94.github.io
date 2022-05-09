@@ -2,8 +2,8 @@
   <section class="hero library">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-centered">My Library</h1>
-        <h2 class="subtitle has-text-centered">
+        <h1 class="title has-text-centered" v-scroll-animation>My Library</h1>
+        <h2 class="subtitle has-text-centered" v-scroll-animation>
           The Personal-Development books that have molded who I am today.
         </h2>
         <o-carousel
@@ -13,7 +13,7 @@
           :arrow-hover="false"
           :repeat="true"
         >
-          <o-carousel-item v-for="(item, i) in items" :key="i">
+          <o-carousel-item v-for="(item, i) in items" :key="i" v-scroll-animation>
             <img :src="item.image" alt="t" />
           </o-carousel-item>
         </o-carousel>
