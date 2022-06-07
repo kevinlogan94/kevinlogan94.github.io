@@ -2,7 +2,9 @@
   <section class="hero is-primary aboutMe">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-centered" v-scroll-animation>Hey, I'm Kevin</h1>
+        <h1 class="title has-text-centered" v-scroll-animation>
+          Hey, I'm Kevin
+        </h1>
         <div class="columns is-vcentered">
           <div class="column">
             <img
@@ -14,6 +16,12 @@
           </div>
           <div class="column">
             <p class="content" v-scroll-animation>
+              Thanks for visiting me on my corner of the internet. This site is
+              where you can find some things that have guided me to where I am
+              now and what I'm currently up to. I hope that they can help you on
+              your journey as well.
+            </p>
+            <p class="content" v-scroll-animation>
               I'm best most known for my work buildings Web Applications for
               Transformers, Littlest Pet Shop, My Little Pony, Fifth Third Bank,
               and NaviStone.
@@ -23,12 +31,6 @@
               since I was very young, I have always had a burning passion for
               everything that I do. I am truly obsessed with progress and slowly
               becoming the best version of myself.
-            </p>
-            <p class="content" v-scroll-animation>
-              Thanks for visiting me on my corner of the internet. This site is
-              where you can find some the things that have guided me to where I
-              am now and what I'm currently up to. I hope that they can help you
-              on your journey as well.
             </p>
           </div>
         </div>
