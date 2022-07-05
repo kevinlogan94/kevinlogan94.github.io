@@ -57,6 +57,12 @@ export default class Mindfulness extends Vue {
       image:
         "https://yt3.ggpht.com/ytc/AKedOLS0Nu-j4uIT72hVVdJ_ftKVUt2DPBhvO7l_bLbs7Q=s900-c-k-c0x00ffffff-no-rj",
     },
+    {
+      title: "Endel",
+      location: "https://endel.io",
+      image:
+        "https://play-lh.googleusercontent.com/3igeqB6-iF8X7BXMea6NwHtvCF_CFdpDWmzg1Ek2DoAApCJrEpH4WyYRgLCITn9DAg",
+    },
   ];
 
   openMindfulnessPlatform(location: string) {
