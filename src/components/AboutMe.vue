@@ -14,7 +14,7 @@
           </div>
           <div class="column">
             <p class="content" v-scroll-animation>
-              I'm best most known for my work buildings Web Applications for
+              I'm a type 3 on the enneagram, best known for my work building software for
               Transformers, Littlest Pet Shop, My Little Pony, Fifth Third Bank,
               and NaviStone.
             </p>

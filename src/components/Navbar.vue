@@ -13,7 +13,7 @@
       >
         <o-icon variant="white" icon="linkedin" title="LinkedIn Icon"></o-icon
       ></a>
-      <a class="navbar-item" href="https://www.instagram.com/kevinlogan7/"
+      <a class="navbar-item" href="https://www.instagram.com/coding.kevin_/"
         ><o-icon
           variant="white"
           icon="instagram"

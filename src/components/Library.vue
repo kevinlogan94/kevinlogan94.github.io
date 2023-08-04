@@ -29,6 +29,10 @@ import { Options, Vue } from "vue-property-decorator";
 export default class Library extends Vue {
   items = [
     {
+      title: "The 48 Laws of Power",
+      image: "https://m.media-amazon.com/images/I/41dTDMW9IhL.jpg",
+    },
+    {
       title: "The Power of your Subconscious Mind",
       image: "https://m.media-amazon.com/images/I/51X3H9IMgmL.jpg",
     },
@@ -51,6 +55,10 @@ export default class Library extends Vue {
     {
       title: "The Way of the Superior Man",
       image: "https://m.media-amazon.com/images/I/61pqlNBnmQL.jpg",
+    },
+    {
+      title: "Men are from Mars, Women are from Venus",
+      image: "https://m.media-amazon.com/images/I/51Iy+y+KLfL.jpg",
     },
     {
       title: "Man's Search for Meaning",

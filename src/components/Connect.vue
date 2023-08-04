@@ -23,7 +23,7 @@
                   title="LinkedIn Icon"
                 ></o-icon>
               </a>
-              <a href="https://www.instagram.com/kevinlogan7/">
+              <a href="https://www.instagram.com/coding.kevin_/">
                 <o-icon
                   variant="white"
                   icon="instagram"

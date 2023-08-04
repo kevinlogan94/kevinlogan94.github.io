@@ -22,7 +22,7 @@
               behind it.
             </p>
             <o-button type="" @click="OpenIntrigueGames" size="is-medium" v-scroll-animation
-              >Launch Website
+              >Launch Trailer
             </o-button>
           </div>
         </div>
@@ -36,10 +36,10 @@ import { Options, Vue } from "vue-property-decorator";
 
 @Options({})
 export default class IntrigueGames extends Vue {
-  soundtrackLink = "https://intrigue-games.com";
+  trailerLink = "https://www.youtube.com/watch?v=r0CQO2x3VGY";
 
   OpenIntrigueGames() {
-    window.open(this.soundtrackLink, "_blank");
+    window.open(this.trailerLink, "_blank");
   }
 }
 </script>
