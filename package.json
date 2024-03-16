@@ -11,27 +11,25 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@oruga-ui/oruga-next": "^0.5.4",
-    "@oruga-ui/theme-bulma": "^0.2.5",
-    "firebase": "^9.1.2",
-    "moment": "^2.29.1",
+    "@oruga-ui/oruga-next": "^0.8.6",
+    "@oruga-ui/theme-bulma": "^0.3.0",
+    "firebase": "^10.9.0",
+    "moment": "^2.30.1",
     "v-video-embed": "^1.0.8",
-    "vue": "^3.2.33",
-    "vue-class-component": "^8.0.0-rc.1",
-    "vue-property-decorator": "^10.0.0-rc.3"
+    "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "@vitejs/plugin-vue": "^2.3.1",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "@vue/eslint-config-typescript": "^9.1.0",
-    "eslint-plugin-vue": "^8.7.1",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "eslint-plugin-vue": "^9.23.0",
     "husky": "^6.0.0",
-    "prettier": "^2.2.1",
+    "prettier": "^3.2.5",
     "pretty-quick": "^3.1.0",
-    "sass": "^1.51.0",
-    "typescript": "~4.7.4",
-    "vite": "2.9.7"
+    "sass": "^1.72.0",
+    "typescript": "~5.4.2",
+    "vite": "5.1.6"
   }
 }
