@@ -2,7 +2,9 @@
   <section class="hero is-primary aboutMe">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-centered" v-scroll-animation>Hey, I'm Kevin</h1>
+        <h1 class="title has-text-centered" v-scroll-animation>
+          Hey, I'm Kevin
+        </h1>
         <div class="columns is-vcentered">
           <div class="column">
             <img
