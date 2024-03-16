@@ -15,7 +15,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup>
 import Banner from "@/components/Banner.vue";
 import Connect from "@/components/Connect.vue";
 import Passions from "@/components/Passions.vue";
@@ -27,29 +27,14 @@ import Mindfulness from "@/components/Mindfulness.vue";
 import Projects from "@/components/Projects.vue";
 import RealEstate from "@/components/RealEstate.vue";
 
-import { Options, Vue } from "vue-property-decorator";
-import analytics from "@/firebase";
 import { logEvent } from "firebase/analytics";
+import { onMounted } from "vue";
+import analytics from "@/firebase";
 
-@Options({
-  components: {
-    Projects,
-    Mindfulness,
-    IntrigueGames,
-    Library,
-    Banner,
-    Connect,
-    Passions,
-    Navbar,
-    AboutMe,
-    RealEstate,
-  },
-})
-export default class App extends Vue {
-  mounted() {
-    logEvent(analytics, "page_view");
-  }
-}
+
+onMounted(() => {
+  logEvent(analytics, "page_view");
+});
 </script>
 
 <style lang="scss"></style>

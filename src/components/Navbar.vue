@@ -1,35 +1,34 @@
 <template>
   <nav
-    class="navbar is-primary is-fixed-top is-spaced"
-    aria-label="main navigation"
+      class="navbar is-primary is-fixed-top is-spaced"
+      aria-label="main navigation"
   >
     <div class="navbar-brand">
       <a class="navbar-item" href="https://twitter.com/KevinLogan12">
         <o-icon variant="white" icon="twitter" title="Twitter Icon"></o-icon
-      ></a>
+        ></a>
       <a
-        class="navbar-item"
-        href="https://www.linkedin.com/in/kevin-logan-73277594/"
+          class="navbar-item"
+          href="https://www.linkedin.com/in/kevin-logan-73277594/"
       >
         <o-icon variant="white" icon="linkedin" title="LinkedIn Icon"></o-icon
-      ></a>
+        ></a>
       <a class="navbar-item" href="https://www.instagram.com/coding.kevin_/"
-        ><o-icon
+      ><o-icon
           variant="white"
           icon="instagram"
           title="Instagram Icon"
-        ></o-icon
+      ></o-icon
       ></a>
       <a class="navbar-item" href="https://github.com/kevinlogan94"
-        ><o-icon variant="white" icon="github" title="Github Icon"></o-icon
+      ><o-icon variant="white" icon="github" title="Github Icon"></o-icon
       ></a>
       <a
-        role="button"
-        class="navbar-burger"
-        aria-label="menu"
-        aria-expanded="false"
-        @click="menuToggle"
-        :class="{ 'is-active': menuActive }"
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          @click="toggleMenu"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -38,54 +37,51 @@
     </div>
     <div class="navbar-menu" :class="{ 'is-active': menuActive }">
       <div class="navbar-end">
-        <a class="navbar-item has-text-white" @click="scrollIntoView('aboutMe')"
-          >About Me</a
+        <a class="navbar-item has-text-white" @click="scrollToSection('aboutMe')"
+        >About Me</a
         >
         <a
-          class="navbar-item has-text-white"
-          @click="scrollIntoView('passions')"
-          >Passions</a
+            class="navbar-item has-text-white"
+            @click="scrollToSection('passions')"
+        >Passions</a
         >
         <a
-          class="navbar-item has-text-white"
-          @click="scrollIntoView('software')"
-          >Software</a
+            class="navbar-item has-text-white"
+            @click="scrollToSection('software')"
+        >Software</a
         >
         <a
-          class="navbar-item has-text-white"
-          @click="scrollIntoView('meditation')"
-          >Meditation</a
+            class="navbar-item has-text-white"
+            @click="scrollToSection('meditation')"
+        >Meditation</a
         >
-        <a class="navbar-item has-text-white" @click="scrollIntoView('games')"
-          >Games</a
+        <a class="navbar-item has-text-white" @click="scrollToSection('games')"
+        >Games</a
         >
-        <a class="navbar-item has-text-white" @click="scrollIntoView('library')"
-          >Library</a
+        <a class="navbar-item has-text-white" @click="scrollToSection('library')"
+        >Library</a
         >
-        <a class="navbar-item has-text-white" @click="scrollIntoView('connect')"
-          >Connect</a
+        <a class="navbar-item has-text-white" @click="scrollToSection('connect')"
+        >Connect</a
         >
       </div>
     </div>
   </nav>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from "vue-property-decorator";
+<script setup lang="ts">
+import { ref } from 'vue'
 
-@Options({})
-export default class NavBar extends Vue {
-  menuActive = false;
+const menuActive = ref(false);
 
-  scrollIntoView(classNameOfSection: string) {
-    const element = document.getElementsByClassName(classNameOfSection)[0];
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+const toggleMenu = () => {
+  menuActive.value = !menuActive.value;
+};
+
+const scrollToSection = (className: string) => {
+  const element = document.getElementsByClassName(className)[0];
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
   }
-
-  menuToggle() {
-    this.menuActive = !this.menuActive;
-  }
-}
+};
 </script>

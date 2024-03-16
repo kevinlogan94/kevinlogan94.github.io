@@ -5,41 +5,14 @@
         <div class="columns is-centered is-mobile">
           <div class="column is-half has-text-centered">
             <h1 class="title" v-scroll-animation>Want to Connect?</h1>
-
-            <div class="block">
-              <a href="https://twitter.com/KevinLogan12">
-                <o-icon
+            <a v-for="link in socialLinks" :key="link.href" :href=link.href>
+              <o-icon
                   variant="white"
-                  icon="twitter"
+                  :icon="link.icon"
                   size="medium"
-                  title="Twitter Icon"
-                ></o-icon>
-              </a>
-              <a href="https://www.linkedin.com/in/kevin-logan-73277594/">
-                <o-icon
-                  variant="white"
-                  icon="linkedin"
-                  size="medium"
-                  title="LinkedIn Icon"
-                ></o-icon>
-              </a>
-              <a href="https://www.instagram.com/coding.kevin_/">
-                <o-icon
-                  variant="white"
-                  icon="instagram"
-                  size="medium"
-                  title="Instagram Icon"
-                ></o-icon>
-              </a>
-              <a href="https://github.com/kevinlogan94">
-                <o-icon
-                  variant="white"
-                  icon="github"
-                  size="medium"
-                  title="Github Icon"
-                ></o-icon>
-              </a>
-            </div>
+                  :title="`Link to ${link.href}`"
+              ></o-icon>
+            </a>
           </div>
         </div>
       </div>
@@ -47,11 +20,13 @@
   </section>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from "vue-property-decorator";
-
-@Options({})
-export default class Connect extends Vue {}
+<script setup>
+const socialLinks = [
+  { href: 'https://twitter.com/KevinLogan12', icon: 'twitter' },
+  { href: 'https://www.linkedin.com/in/kevin-logan-73277594/', icon: 'linkedin' },
+  { href: 'https://www.instagram.com/coding.kevin_/', icon: 'instagram' },
+  { href: 'https://github.com/kevinlogan94', icon: 'github' },
+]
 </script>
 
 <style lang="scss" scoped>

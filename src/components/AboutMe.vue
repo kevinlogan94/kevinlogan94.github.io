@@ -8,10 +8,10 @@
         <div class="columns is-vcentered">
           <div class="column">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/stud.jpeg?alt=media&token=049bec4e-70f1-4479-871b-cb29fddb96fd"
-              alt="Profile Picture"
-              class="image"
-              v-scroll-animation
+                src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/stud.jpeg?alt=media&token=049bec4e-70f1-4479-871b-cb29fddb96fd"
+                alt="Profile Picture"
+                class="image"
+                v-scroll-animation
             />
           </div>
           <div class="column">
@@ -39,11 +39,8 @@
   </section>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from "vue-property-decorator";
-
-@Options({})
-export default class AboutMe extends Vue {}
+<script setup>
+// No additional logic needed for this component
 </script>
 
 <style lang="scss">

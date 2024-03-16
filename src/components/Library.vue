@@ -7,14 +7,14 @@
           The Personal-Development books that have molded who I am today.
         </h2>
         <o-carousel
-          :data="items"
-          :items-to-show="3"
-          :items-to-list="1"
-          :arrow-hover="false"
-          :repeat="true"
+            :data="items"
+            :items-to-show="3"
+            :items-to-list="1"
+            :arrow-hover="false"
+            :repeat="true"
         >
           <o-carousel-item v-for="(item, i) in items" :key="i" v-scroll-animation>
-            <img :src="item.image" alt="t" />
+            <img :src="item.image" alt="Book Cover" />
           </o-carousel-item>
         </o-carousel>
       </div>
@@ -22,73 +22,71 @@
   </section>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from "vue-property-decorator";
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
 
-@Options({})
-export default class Library extends Vue {
-  items = [
-    {
-      title: "The 48 Laws of Power",
-      image: "https://m.media-amazon.com/images/I/41dTDMW9IhL.jpg",
-    },
-    {
-      title: "The Power of your Subconscious Mind",
-      image: "https://m.media-amazon.com/images/I/51X3H9IMgmL.jpg",
-    },
-    {
-      title: "Peak Performance",
-      image: "https://m.media-amazon.com/images/I/41ssxrhLwCL.jpg",
-    },
-    {
-      title: "How to Win Friends & Influence People",
-      image: "https://m.media-amazon.com/images/I/51PWIy1rHUL.jpg",
-    },
-    {
-      title: "Range",
-      image: "https://m.media-amazon.com/images/I/41OjnXiiB1L.jpg",
-    },
-    {
-      title: "Mastering Yourself",
-      image: "https://m.media-amazon.com/images/I/51bjykpGDfL.jpg",
-    },
-    {
-      title: "The Way of the Superior Man",
-      image: "https://m.media-amazon.com/images/I/61pqlNBnmQL.jpg",
-    },
-    {
-      title: "Men are from Mars, Women are from Venus",
-      image: "https://m.media-amazon.com/images/I/51Iy+y+KLfL.jpg",
-    },
-    {
-      title: "Man's Search for Meaning",
-      image: "https://m.media-amazon.com/images/I/51L04pj+1JL.jpg",
-    },
-    {
-      title: "The Art of Seduction",
-      image: "https://m.media-amazon.com/images/I/41+FfYVLnEL.jpg",
-    },
-    {
-      title: "Letting Go: The Pathway of Surrender",
-      image: "https://m.media-amazon.com/images/I/41BoLINwhQL.jpg",
-    },
-    {
-      title: "Start Where You Are",
-      image: "https://m.media-amazon.com/images/I/51WVBVDl4cL.jpg",
-    },
-  ];
+const items = ref([
+  {
+    title: "The 48 Laws of Power",
+    image: "https://m.media-amazon.com/images/I/41dTDMW9IhL.jpg",
+  },
+  {
+    title: "The Power of your Subconscious Mind",
+    image: "https://m.media-amazon.com/images/I/51X3H9IMgmL.jpg",
+  },
+  {
+    title: "Peak Performance",
+    image: "https://m.media-amazon.com/images/I/41ssxrhLwCL.jpg",
+  },
+  {
+    title: "How to Win Friends & Influence People",
+    image: "https://m.media-amazon.com/images/I/51PWIy1rHUL.jpg",
+  },
+  {
+    title: "Range",
+    image: "https://m.media-amazon.com/images/I/41OjnXiiB1L.jpg",
+  },
+  {
+    title: "Mastering Yourself",
+    image: "https://m.media-amazon.com/images/I/51bjykpGDfL.jpg",
+  },
+  {
+    title: "The Way of the Superior Man",
+    image: "https://m.media-amazon.com/images/I/61pqlNBnmQL.jpg",
+  },
+  {
+    title: "Men are from Mars, Women are from Venus",
+    image: "https://m.media-amazon.com/images/I/51Iy+y+KLfL.jpg",
+  },
+  {
+    title: "Man's Search for Meaning",
+    image: "https://m.media-amazon.com/images/I/51L04pj+1JL.jpg",
+  },
+  {
+    title: "The Art of Seduction",
+    image: "https://m.media-amazon.com/images/I/41+FfYVLnEL.jpg",
+  },
+  {
+    title: "Letting Go: The Pathway of Surrender",
+    image: "https://m.media-amazon.com/images/I/41BoLINwhQL.jpg",
+  },
+  {
+    title: "Start Where You Are",
+    image: "https://m.media-amazon.com/images/I/51WVBVDl4cL.jpg",
+  },
+]);
 
-  mounted() {
-    setInterval(this.triggerCarouselTransition, 7500);
-  }
+const triggerCarouselTransition = () => {
+  // Simulate click event on last right arrow
+  const rightIcons = document.getElementsByClassName("has-icons-right");
+  const chevron = rightIcons[rightIcons.length - 1];
+  chevron.dispatchEvent(new Event("click"));
+};
 
-  triggerCarouselTransition() {
-    const rightIcons = document.getElementsByClassName("has-icons-right");
-    const chevron = rightIcons[rightIcons.length - 1];
-    const clickEvent = new Event("click");
-    chevron.dispatchEvent(clickEvent);
-  }
-}
+onMounted(() => {
+  setInterval(triggerCarouselTransition, 7500);
+});
 </script>
 
 <style scoped></style>
+

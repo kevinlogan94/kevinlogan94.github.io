@@ -6,13 +6,13 @@
         <div class="column mt-6" v-scroll-animation>
           <h1 class="title">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/signature.png?alt=media&token=782f3594-27e3-4493-9a6f-2eed114dad0e"
-              alt="Signature"
-              class="image"
+                src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/signature.png?alt=media&token=782f3594-27e3-4493-9a6f-2eed114dad0e"
+                alt="Signature"
+                class="image"
             />
           </h1>
           <h2
-            class="subtitle has-text-weight-bold has-text-centered has-text-black"
+              class="subtitle has-text-weight-bold has-text-centered has-text-black"
           >
             Software Engineer, Meditator, Landlord, Video Game Designer
           </h2>
@@ -24,14 +24,11 @@
   </section>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from "vue-property-decorator";
-
-@Options({})
-export default class Banner extends Vue {}
+<script setup>
+// No additional logic needed for this component
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .banner-content {
   width: 100%;
 }

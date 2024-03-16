@@ -6,10 +6,10 @@
         <div class="columns is-vcentered">
           <div class="column">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/story-animation.gif?alt=media&token=6be366e6-208a-45b3-8543-42b14050f504"
-              alt="Xal at his desk"
-              class="image"
-              v-scroll-animation
+                src="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/story-animation.gif?alt=media&token=6be366e6-208a-45b3-8543-42b14050f504"
+                alt="Xal at his desk"
+                class="image"
+                v-scroll-animation
             />
           </div>
           <div class="column">
@@ -21,8 +21,8 @@
               rid the realm of a terrible blight and uncover the deceitful truth
               behind it.
             </p>
-            <o-button type="" @click="OpenIntrigueGames" size="is-medium" v-scroll-animation
-              >Launch Trailer
+            <o-button type="" @click="openTrailer" size="is-medium" v-scroll-animation
+            >Launch Trailer
             </o-button>
           </div>
         </div>
@@ -31,20 +31,15 @@
   </section>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from "vue-property-decorator";
+<script setup lang="ts">
+const trailerLink = "https://www.youtube.com/watch?v=r0CQO2x3VGY";
 
-@Options({})
-export default class IntrigueGames extends Vue {
-  trailerLink = "https://www.youtube.com/watch?v=r0CQO2x3VGY";
-
-  OpenIntrigueGames() {
-    window.open(this.trailerLink, "_blank");
-  }
-}
+const openTrailer = () => {
+  window.open(trailerLink, "_blank");
+};
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .image {
   margin: auto;
   max-height: 500px;

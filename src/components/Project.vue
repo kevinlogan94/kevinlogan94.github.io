@@ -9,7 +9,7 @@
         </div>
         <div class="column">
           <figure class="image is-3by2">
-            <img :src="img" :alt="imgAlt" />
+            <img :src="props.img" :alt="props.imgAlt" />
           </figure>
         </div>
       </div>
@@ -17,20 +17,19 @@
   </div>
 </template>
 
-<script lang="ts">
-import { Options, Vue, Prop } from "vue-property-decorator";
+<script setup lang="ts">
+import { defineProps } from 'vue'
 
-@Options({})
-export default class Project extends Vue {
-  @Prop() img!: string;
-  @Prop() imgAlt!: string;
-  @Prop() title!: string;
-  @Prop() subtitle!: string;
-  @Prop() description!: string;
-}
+const props = defineProps({
+  img: String,
+  imgAlt: String,
+  title: String,
+  subtitle: String,
+  description: String,
+});
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 .software .before-enter {
   opacity: 0;
   transform: scale(0.5) rotateZ(-25deg);
