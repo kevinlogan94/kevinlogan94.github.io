@@ -6,10 +6,9 @@
       <AboutMe />
       <Passions />
       <Projects />
-      <Mindfulness />
+      <RealEstate />
       <IntrigueGames />
       <Library />
-      <RealEstate />
       <Connect />
     </main>
   </div>
@@ -23,7 +22,6 @@ import Navbar from "@/components/Navbar.vue";
 import AboutMe from "@/components/AboutMe.vue";
 import Library from "@/components/Library.vue";
 import IntrigueGames from "@/components/IntrigueGames.vue";
-import Mindfulness from "@/components/Mindfulness.vue";
 import Projects from "@/components/Projects.vue";
 import RealEstate from "@/components/RealEstate.vue";
 

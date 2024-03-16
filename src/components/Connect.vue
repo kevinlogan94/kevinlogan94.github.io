@@ -22,7 +22,7 @@
 
 <script setup>
 const socialLinks = [
-  { href: 'https://twitter.com/KevinLogan12', icon: 'twitter' },
+  { href: 'https://twitter.com/codingkevin_', icon: 'twitter' },
   { href: 'https://www.linkedin.com/in/kevin-logan-73277594/', icon: 'linkedin' },
   { href: 'https://www.instagram.com/coding.kevin_/', icon: 'instagram' },
   { href: 'https://github.com/kevinlogan94', icon: 'github' },

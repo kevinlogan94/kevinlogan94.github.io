@@ -7,7 +7,7 @@
           The best platforms that I use for calm and mental programming.
         </h2>
         <o-carousel
-            :items-to-show="5"
+            :items-to-show="3"
             :items-to-list="1"
             :indicators="false"
             class="is-flex-centered"
@@ -48,19 +48,7 @@ const items = ref([
     location: "https://www.youtube.com/c/JasonStephensonSleepMeditationMusic",
     image:
         "https://yt3.ggpht.com/ytc/AKedOLQDcNwpiqi0OEZb7ZZOw8jJLTUpPt1JaSoWHmLn9w=s900-c-k-c0x00ffffff-no-rj",
-  },
-  {
-    title: "Mindful Waves Studio",
-    location: "https://www.youtube.com/c/MindfulWavesStudio",
-    image:
-        "https://yt3.ggpht.com/ytc/AKedOLS0Nu-j4uIT72hVVdJ_ftKVUt2DPBhvO7l_bLbs7Q=s900-c-k-c0x00ffffff-no-rj",
-  },
-  {
-    title: "Endel",
-    location: "https://endel.io",
-    image:
-        "https://play-lh.googleusercontent.com/3igeqB6-iF8X7BXMea6NwHtvCF_CFdpDWmzg1Ek2DoAApCJrEpH4WyYRgLCITn9DAg",
-  },
+  }
 ]);
 
 const openMindfulnessPlatform = (location: string) => {

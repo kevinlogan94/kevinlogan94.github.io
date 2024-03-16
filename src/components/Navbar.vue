@@ -4,7 +4,7 @@
       aria-label="main navigation"
   >
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://twitter.com/KevinLogan12">
+      <a class="navbar-item" href="https://twitter.com/codingkevin_">
         <o-icon variant="white" icon="twitter" title="Twitter Icon"></o-icon
         ></a>
       <a
@@ -52,8 +52,8 @@
         >
         <a
             class="navbar-item has-text-white"
-            @click="scrollToSection('meditation')"
-        >Meditation</a
+            @click="scrollToSection('real-estate')"
+        >Real Estate</a
         >
         <a class="navbar-item has-text-white" @click="scrollToSection('games')"
         >Games</a

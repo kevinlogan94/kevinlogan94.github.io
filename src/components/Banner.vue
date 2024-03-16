@@ -14,7 +14,7 @@
           <h2
               class="subtitle has-text-weight-bold has-text-centered has-text-black"
           >
-            Software Engineer, Meditator, Landlord, Video Game Designer
+            Solving problems from Code to Real Estate
           </h2>
         </div>
         <div class="column is-one-quarter"></div>
@@ -28,7 +28,7 @@
 // No additional logic needed for this component
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .banner-content {
   width: 100%;
 }
