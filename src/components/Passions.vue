@@ -36,37 +36,31 @@ const passions = ref([
     icon: "cloud",
     title: "Software Engineering",
     description:
-        "To bring my Web Applications to life, I create a steam line between applications and data by building cloud solutions.",
+        "Building creative and engaging products as a passionate software engineer. Experience includes front-end development at established companies and full-stack development in the startup world, even leading a team of 4.",
   },
   {
     icon: "home",
     title: "Real Estate",
     description:
-        "I currently lease out rental property to provide a quality living experience to some of the best renters around.",
+        " In 2022, I took a leap into real estate ownership, successfully acquiring my first property and stepping into the role of a landlord. This experience honed valuable project management and financial planning skills.",
   },
   {
     icon: "book-open-variant",
     title: "Personal Development",
     description:
-        "I genuinely love to learn. With this, I am constantly reading and studying from the greatest minds of our time in my relentless self-reliance pursuit.",
-  },
-  {
-    icon: "currency-usd",
-    title: "Finance",
-    description:
-        "After making it through the 2020 quarantine, I developed a passion for financial independence. To do this, you can find me constantly looking for new avenues for investing.",
+        "Lifelong learner, constantly exploring new personal development books. Believing understanding diverse experiences fuel creativity and problem-solving skills.",
   },
   {
     icon: "google-controller",
     title: "Video Game Design",
     description:
-        "To fulfill a promise I made when I was five years old, You can find me building video games to offer a break from reality while also providing a story with lessons people can use to better their own lives.",
+        "Giving Entrepreneurship a shot! Founded Intrigue Games in 2021 and developed my first mobile game.",
   },
   {
-    icon: "flower",
-    title: "Mindfulness",
+    icon: "instagram",
+    title: "Social Media",
     description:
-        "After surviving a traumatic event in my early twenties, I use mindfulness every day to constantly be in a state of calm and control over the present moment.",
+        "Actively exploring the ever-evolving landscape of social media content creation.",
   },
 ]);
 

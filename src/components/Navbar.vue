@@ -37,9 +37,6 @@
     </div>
     <div class="navbar-menu" :class="{ 'is-active': menuActive }">
       <div class="navbar-end">
-        <a class="navbar-item has-text-white" @click="scrollToSection('aboutMe')"
-        >About Me</a
-        >
         <a
             class="navbar-item has-text-white"
             @click="scrollToSection('passions')"

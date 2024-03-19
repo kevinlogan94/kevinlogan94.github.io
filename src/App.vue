@@ -3,7 +3,7 @@
     <Navbar />
     <main>
       <Banner />
-      <AboutMe />
+<!--      <AboutMe />-->
       <Passions />
       <Projects />
       <RealEstate />
