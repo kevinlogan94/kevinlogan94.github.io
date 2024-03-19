@@ -39,7 +39,7 @@
                       subtitle="Software Engineering Manager"
                       img="https://firebasestorage.googleapis.com/v0/b/personal-web-application.appspot.com/o/CFI.png?alt=media&token=d6baf6d7-c8d0-4486-86df-1f69de0c4c6d"
                       imgAlt="Client Facing Interface Project"
-                      description="At NaviStone, you can find my team and I working on Project Atlas and Project Iris. Two big projects that are projected to pave the future path of the company."
+                      description="At NaviStone, you can find my team and I working on our customer facing platform. This gives our customers a dashboard to interact with our services."
                   />
                 </div>
               </div>
