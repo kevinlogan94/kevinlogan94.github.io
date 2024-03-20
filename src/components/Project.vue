@@ -4,6 +4,7 @@
       <div class="columns">
         <div class="column has-text-centered">
           <h4 class="title is-4 has-text-black">{{ title }}</h4>
+          <p>{{timePeriod}}</p>
           <h5 class="subtitle has-text-black">{{ subtitle }}</h5>
           <p class="content">{{ description }}</p>
         </div>
@@ -26,6 +27,7 @@ const props = defineProps({
   title: String,
   subtitle: String,
   description: String,
+  timePeriod: String
 });
 </script>
 
