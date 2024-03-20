@@ -29,6 +29,14 @@
               >Launch Trailer
             </o-button>
             <o-button
+              @click="openSoundTrack"
+              class="ml-2"
+              variant="success"
+              size="is-medium"
+              v-scroll-animation
+              >Soundtrack</o-button
+            >
+            <o-button
               @click="openSourceCode"
               class="ml-2"
               variant="info"
@@ -46,12 +54,17 @@
 <script setup lang="ts">
 const trailerLink = "https://www.youtube.com/watch?v=r0CQO2x3VGY";
 const sourceCodeLink = "https://github.com/kevinlogan94/xals-path";
+const soundtrackLink = "https://www.youtube.com/watch?v=hDrSy_biKRo";
 
 const openTrailer = () => {
   window.open(trailerLink, "_blank");
 };
 const openSourceCode = () => {
   window.open(sourceCodeLink, "_blank");
+};
+
+const openSoundTrack = () => {
+  window.open(soundtrackLink, "_blank");
 };
 </script>
 
