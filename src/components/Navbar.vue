@@ -1,6 +1,6 @@
 <template>
   <nav
-      class="navbar is-primary is-fixed-top is-spaced"
+      class="navbar is-primary is-spaced"
       aria-label="main navigation"
   >
     <div class="navbar-brand">
