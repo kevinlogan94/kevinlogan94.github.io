@@ -36,25 +36,25 @@ const passions = ref([
     icon: "cloud",
     title: "Software Engineering",
     description:
-        "Building creative and engaging products as a passionate software engineer. Experience includes front-end development at established companies and full-stack development in the startup world, even leading a team of 4.",
+        "I build creative and engaging products as a passionate software engineer. My experience includes front-end development at established companies and full-stack development in the startup world, even leading a team of 4.",
   },
   {
     icon: "home",
     title: "Real Estate",
     description:
-        " In 2022, I took a leap into real estate ownership, successfully acquiring my first property and stepping into the role of a landlord. This experience honed valuable project management and financial planning skills.",
+        "In 2022, I took a leap into real estate ownership, successfully acquiring my first property and stepping into the role of a landlord. This experience honed valuable project management and financial planning skills.",
   },
   {
     icon: "book-open-variant",
     title: "Personal Development",
     description:
-        "Lifelong learner, constantly exploring new personal development books. Believing understanding diverse experiences fuel creativity and problem-solving skills.",
+        "I am a lifelong learner, constantly exploring new personal development books. Believing understanding diverse experiences fuel creativity and problem-solving skills.",
   },
   {
     icon: "google-controller",
     title: "Video Game Design",
     description:
-        "Giving Entrepreneurship a shot! Founded Intrigue Games in 2021 and developed my first mobile game.",
+        "Giving Entrepreneurship a shot! I founded Intrigue Games in 2021 and developed my first mobile game.",
   },
   {
     icon: "instagram",
